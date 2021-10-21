@@ -1,0 +1,98 @@
+\documentclass[a4paper,11pt,oneside,openany]{jsbook}
+%
+\usepackage{amsmath,amssymb}
+\usepackage{bm}
+\usepackage[dvipdfmx]{graphicx}%,draft
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\usepackage{ascmac}
+\usepackage{makeidx}
+\usepackage[dvipdfmx]{hyperref,graphicx}
+\usepackage{pxjahyper}
+%\hypersetup{
+%	colorlinks=false, % リンクに色をつけない設定
+%	bookmarks=true, % 以下ブックマークに関する設定
+%	bookmarksnumbered=true,
+%	pdfborder={0 0 0},
+%}
+\usepackage{siunitx}
+\usepackage{lineno}
+\pagewiselinenumbers 
+%
+\makeindex
+%
+\setlength{\textwidth}{\fullwidth}
+\setlength{\textheight}{40\baselineskip}
+\addtolength{\textheight}{\topskip}
+\setlength{\voffset}{-0.55in}
+%
+\newcommand{\diff}{\mathrm{d}}  %微分記号
+\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+%
+\def\maru#1{{\rm\ooalign{\hfil\lower.168ex\hbox{#1}\hfil \crcr\mathhexbox20D}}}
+\makeatletter
+\newcommand{\figcaption}[1]{\def\@captype{figure}\caption{#1}}
+\newcommand{\tblcaption}[1]{\def\@captype{table}\caption{#1}}
+%
+\newcommand{\eref}[1]{式~(\ref{#1})}
+\newcommand{\fref}[1]{図~\ref{#1}}
+\newcommand{\tref}[1]{表~\ref{#1}}
+%
+\title{ATLASピクセル検出機の電荷補正方法の最適化と\\新型ピクセル検出機量産の品質試験結果管理システムの開発}
+\author{東京工業大学 理学院物理学系物理学コース 陣内研究室\\木下怜士（20M00395）}
+\date{2021年7月30日}
+\begin{document}
+%
+%
+\maketitle
+%
+%
+\frontmatter
+%
+\addcontentsline{toc}{chapter}{概要}
+\include{abstract}
+\tableofcontents
+%
+\mainmatter
+%
+\include{chap1}
+\include{chap2}
+\include{chap3}
+\include{chap4}
+\include{chap5}
+\include{chap6}
+\include{chap7}
+\include{chap8}
+%
+%
+\appendix
+%
+\include{appendixA}
+%\include{appendixB}
+%
+\include{bibliography}
+%
+%
+\chapter*{謝辞}
+\addcontentsline{toc}{chapter}{謝辞}
+
+shaji
+
+
+
+
+%
+\listoffigures
+%
+\listoftables
+%
+%
+\newpage
+\printindex
+%
+%
+\end{document}

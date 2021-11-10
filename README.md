@@ -45,3 +45,40 @@
 8. 第8章: まとめ
 	1. まとめ
 	2. 今後の課題
+
+
+## How to use LaTeX
+
+### Insert an image
+
+```
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[height=7cm,keepaspectratio]{ATLAS.jpg}
+  \caption[ATLAS検出器]{ATLAS検出器の全体図[\cite{ATLAS}]}
+  \label{fig:ATLAS}
+\end{figure}
+```
+
+
+### Insert a table
+
+```
+\begin{table}[htbp]
+  \begin{center}
+    \caption[hoge]{hoge}
+    \label{tab:1}
+    \begin{tabular}{ccccc}
+    \hline
+    \hline
+    hoge &  &  &  &  \\
+    \hline
+    hoge &  &  &  &  \\
+    \hline
+    hoge &  &  &  &  \\
+    \hline
+    \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+```

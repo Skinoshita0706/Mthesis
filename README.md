@@ -54,12 +54,31 @@
 ```
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=7cm,keepaspectratio]{ATLAS.jpg}
-  \caption[ATLAS検出器]{ATLAS検出器の全体図[\cite{ATLAS}]}
-  \label{fig:ATLAS}
+  \includegraphics[height=7cm,keepaspectratio]{hoge.jpg}
+  \caption[hoge]{hoge \cite{hoge} }
+  \label{fig:hoge}
 \end{figure}
 ```
 
+### Insert double images
+```
+\begin{figure}[tbp]
+  \begin{tabular}{cc}
+    \begin{minipage}{.6¥textwidth}
+      \centering
+      \includegraphics[height=4cm,keepaspectratio]{hoge1.png}
+      \caption[hoge1]{hoge1}
+      \label{fig:hoge1}
+    \end{minipage}
+    \begin{minipage}{.6¥textwidth}
+      \centering
+      \includegraphics[height=3.5cm,keepaspectratio]{hoge2.png}
+      \caption[hoge2]{hoge2}
+      \label{fig:hoge2}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+```
 
 ### Insert a table
 

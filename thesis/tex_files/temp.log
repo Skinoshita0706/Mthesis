@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  10 NOV 2021 11:55
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  12 NOV 2021 13:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -838,23 +838,31 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 6.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 15.
-File: ../images/ATLAS.jpg Graphic file (type bmp)
-<../images/ATLAS.jpg>
+(Font)              scaled to size 11.53198pt on input line 9.
+File: ../images/LHC.jpg Graphic file (type bmp)
+<../images/LHC.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
+(Font)              scaled to size 8.64899pt on input line 18.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 26.
+(Font)              scaled to size 8.64899pt on input line 18.
 [1
 
 
 
-] [2])
+]
+LaTeX Font Info:    Try loading font information for U+euf on input line 36.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+File: ../images/ATLAS.jpg Graphic file (type bmp)
+<../images/ATLAS.jpg>
+ [2]
+[3])
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
 第2章
-[3
+[4
 
 
 
@@ -863,7 +871,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap3.tex
 第3章
-[4
+[5
 
 
 
@@ -872,7 +880,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap4.tex
 第4章
-[5
+[6
 
 
 
@@ -881,7 +889,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap5.tex
 第5章
-[6
+[7
 
 
 
@@ -890,7 +898,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap6.tex
 第6章
-[7
+[8
 
 
 
@@ -899,7 +907,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap7.tex
 第7章
-[8
+[9
 
 
 
@@ -908,7 +916,7 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./chap8.tex
 第8章
-[9
+[10
 
 
 
@@ -917,31 +925,31 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 
  (./appendixA.tex
 付録A
-) [10
+) [11
 
 
 
 ]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex) [11
+ (./bibliography.tex) [12
 
 
 
-] [12
+] [13
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [13
+ [14
 
 ] (./temp.lot)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [14
+ [15
 
 ]
 (./temp.ind)
@@ -957,12 +965,12 @@ Package rerunfilecheck Info: File `temp.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 16711 strings out of 493648
- 320715 string characters out of 6148806
- 379559 words of memory out of 5000000
- 20074 multiletter control sequences out of 15000+600000
- 556018 words of font info for 139 fonts, out of 8000000 for 9000
+ 16732 strings out of 493648
+ 321057 string characters out of 6148806
+ 379707 words of memory out of 5000000
+ 20088 multiletter control sequences out of 15000+600000
+ 556726 words of font info for 142 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,8n,33p,10374b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,33p,10374b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (19 pages, 32040 bytes).
+Output written on temp.dvi (20 pages, 37448 bytes).

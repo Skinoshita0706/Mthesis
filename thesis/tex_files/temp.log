@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  12 NOV 2021 13:00
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  15 NOV 2021 11:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -845,18 +845,20 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 18.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 18.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 31.
 [1
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+euf on input line 36.
+LaTeX Font Info:    Try loading font information for U+euf on input line 37.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
+) [2]
 File: ../images/ATLAS.jpg Graphic file (type bmp)
 <../images/ATLAS.jpg>
- [2]
+
 [3])
 \openout2 = `chap2.aux'.
 
@@ -871,6 +873,10 @@ File: ../images/ATLAS.jpg Graphic file (type bmp)
 
  (./chap3.tex
 第3章
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
 [5
 
 
@@ -952,12 +958,12 @@ File: ../images/ATLAS.jpg Graphic file (type bmp)
  [15
 
 ]
-(./temp.ind)
+No file temp.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
- (./temp.aux (./abstract.aux) (./chap1.aux) (./chap2.aux)
-(./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
-(./chap8.aux) (./appendixA.aux) (./bibliography.aux))
+(./temp.aux (./abstract.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
+(./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux) (./chap8.aux)
+(./appendixA.aux) (./bibliography.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 100.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `temp.out' has not changed.
@@ -965,12 +971,12 @@ Package rerunfilecheck Info: File `temp.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 16732 strings out of 493648
- 321057 string characters out of 6148806
- 379707 words of memory out of 5000000
- 20088 multiletter control sequences out of 15000+600000
- 556726 words of font info for 142 fonts, out of 8000000 for 9000
+ 16729 strings out of 493648
+ 321034 string characters out of 6148806
+ 379678 words of memory out of 5000000
+ 20087 multiletter control sequences out of 15000+600000
+ 556915 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,9n,33p,10374b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,33p,10374b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (20 pages, 37448 bytes).
+Output written on temp.dvi (20 pages, 39980 bytes).

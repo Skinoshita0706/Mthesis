@@ -62,21 +62,17 @@
 
 ### Insert double images
 ```
-\begin{figure}[tbp]
-  \begin{tabular}{cc}
-    \begin{minipage}{.6¥textwidth}
-      \centering
-      \includegraphics[height=4cm,keepaspectratio]{hoge1.png}
-      \caption[hoge1]{hoge1}
-      \label{fig:hoge1}
-    \end{minipage}
-    \begin{minipage}{.6¥textwidth}
-      \centering
-      \includegraphics[height=3.5cm,keepaspectratio]{hoge2.png}
-      \caption[hoge2]{hoge2}
-      \label{fig:hoge2}
-    \end{minipage}
-  \end{tabular}
+\begin{figure}[htbp]
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.35]{InnerDetector.jpg}
+    \caption{Composite}
+  \end{minipage}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.4]{structureID.png}
+    \caption{Gradation}
+  \end{minipage}
 \end{figure}
 ```
 

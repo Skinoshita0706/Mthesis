@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  16 NOV 2021 12:46
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  18 NOV 2021 00:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -688,31 +688,50 @@ LaTeX Info: Redefining \\ on input line 3056.
 
 
 Writing index file temp.idx
-(./temp.aux (./abstract.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
-(./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux) (./chap8.aux)
-(./appendixA.aux) (./bibliography.aux))
+(./temp.aux (./abstract.aux) (./chap1.aux
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+) (./chap2.aux
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+
+LaTeX Warning: Label `sec:' multiply defined.
+
+) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
+(./chap8.aux) (./appendixA.aux) (./bibliography.aux))
 \openout1 = `temp.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 \AtBeginShipoutBox=\box77
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 54.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -722,9 +741,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count300
 )
-LaTeX Info: Redefining \ref on input line 50.
-LaTeX Info: Redefining \pageref on input line 50.
-LaTeX Info: Redefining \nameref on input line 50.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./temp.out) (./temp.out)
 \@outlinefile=\write4
@@ -740,45 +759,45 @@ File: siunitx-abbreviations.cfg 2017/06/13 v2.7h siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count301
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 50.
+(Font)              scaled to size 6.72699pt on input line 54.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 50.
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+(Font)              scaled to size 4.805pt on input line 54.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 50.
+(Font)              scaled to size 9.60999pt on input line 54.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 50.
+(Font)              scaled to size 6.72699pt on input line 54.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 50.
+(Font)              scaled to size 4.805pt on input line 54.
 \c__siunitx_mathtt_int=\count302
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 56.
+(Font)              scaled to size 16.60605pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 16.60605pt on input line 56.
+(Font)              scaled to size 16.60605pt on input line 60.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 56.
+(Font)              scaled to size 4.805pt on input line 60.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 4.805pt on input line 56.
+(Font)              scaled to size 4.805pt on input line 60.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 56.
+(Font)              scaled to size 11.53198pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 56.
+(Font)              scaled to size 11.53198pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 56.
+(Font)              scaled to size 5.76599pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 56.
+(Font)              scaled to size 11.53198pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 56.
+(Font)              scaled to size 7.68799pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 56.
+(Font)              scaled to size 5.76599pt on input line 60.
  [1
 
 
@@ -822,67 +841,60 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  (./chap1.tex
 第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
+(Font)              scaled to size 19.9311pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
+(Font)              scaled to size 19.9311pt on input line 2.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
+(Font)              scaled to size 19.9311pt on input line 2.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 1.
+(Font)              scaled to size 19.9311pt on input line 2.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 6.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 6.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 6.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 6.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 9.
+(Font)              scaled to size 11.53198pt on input line 20.
 File: ../images/LHC.jpg Graphic file (type bmp)
 <../images/LHC.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 18.
+(Font)              scaled to size 8.64899pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 18.
+(Font)              scaled to size 8.64899pt on input line 45.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 31.
+(Font)              scaled to size 6.72699pt on input line 58.
 [1
 
 
 
-]
-LaTeX Font Info:    Try loading font information for U+euf on input line 37.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [2]
+] [2]
 File: ../images/ATLAS.jpg Graphic file (type bmp)
 <../images/ATLAS.jpg>
 File: ../images/InnerDetector.jpg Graphic file (type bmp)
 <../images/InnerDetector.jpg>
 
-Overfull \hbox (88.29544pt too wide) in paragraph at lines 80--81
+Overfull \hbox (7.18748pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
 File: ../images/structureID.png Graphic file (type bmp)
 <../images/structureID.png>
-
-Overfull \hbox (19.63069pt too wide) in paragraph at lines 86--87
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 103.
+File: ../images/figures_final_pdf_NewID.png Graphic file (type bmp)
+<../images/figures_final_pdf_NewID.png>
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 147.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [3] [4])
+) [3] [4] [5])
 \openout2 = `chap2.aux'.
 
 
 (./chap2.tex
 第2章
-[5
+[6
 
 
 
@@ -891,7 +903,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap3.tex
 第3章
-[6
+[7
 
 
 
@@ -900,7 +912,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap4.tex
 第4章
-[7
+[8
 
 
 
@@ -909,7 +921,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap5.tex
 第5章
-[8
+[9
 
 
 
@@ -918,7 +930,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap6.tex
 第6章
-[9
+[10
 
 
 
@@ -927,7 +939,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap7.tex
 第7章
-[10
+[11
 
 
 
@@ -936,7 +948,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap8.tex
 第8章
-[11
+[12
 
 
 
@@ -945,52 +957,62 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./appendixA.tex
 付録A
-) [12
+) [13
 
 
 
 ]
 \openout2 = `bibliography.aux'.
 
- (./bibliography.tex) [13
+ (./bibliography.tex
+Underfull \hbox (badness 3977) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/10 "Study of the ma-te-rial of the AT-LAS in-ner de-tec-tor for 
+Run 2 of the LHC",
+ []
+
+) [14
 
 
 
-] [14
+] [15
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [15
+ [16
 
 ] (./temp.lot)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [16
+ [17
 
 ]
 No file temp.ind.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 (./temp.aux (./abstract.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
 (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux) (./chap8.aux)
 (./appendixA.aux) (./bibliography.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `temp.out' has not changed.
 (rerunfilecheck)             Checksum: 0829C54C5FB8D00ACFCFBF9C0285874C;2588.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 16772 strings out of 493648
- 322250 string characters out of 6148806
- 379900 words of memory out of 5000000
- 20121 multiletter control sequences out of 15000+600000
- 557928 words of font info for 146 fonts, out of 8000000 for 9000
+ 16780 strings out of 493648
+ 322314 string characters out of 6148806
+ 380526 words of memory out of 5000000
+ 20134 multiletter control sequences out of 15000+600000
+ 557220 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,11n,34p,10374b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,16n,34p,10374b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (21 pages, 46376 bytes).
+Output written on temp.dvi (22 pages, 50988 bytes).

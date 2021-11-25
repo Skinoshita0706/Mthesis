@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  18 NOV 2021 00:31
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  25 NOV 2021 09:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -695,21 +695,8 @@ LaTeX Warning: Label `sec:' multiply defined.
 
 LaTeX Warning: Label `sec:' multiply defined.
 
-
-LaTeX Warning: Label `sec:' multiply defined.
-
-) (./chap2.aux
-
-LaTeX Warning: Label `sec:' multiply defined.
-
-
-LaTeX Warning: Label `sec:' multiply defined.
-
-
-LaTeX Warning: Label `sec:' multiply defined.
-
-) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
-(./chap8.aux) (./appendixA.aux) (./bibliography.aux))
+) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux)
+(./chap7.aux) (./chap8.aux) (./appendixA.aux) (./bibliography.aux))
 \openout1 = `temp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1007,12 +994,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 16780 strings out of 493648
- 322314 string characters out of 6148806
- 380526 words of memory out of 5000000
- 20134 multiletter control sequences out of 15000+600000
+ 16785 strings out of 493648
+ 322391 string characters out of 6148806
+ 380721 words of memory out of 5000000
+ 20139 multiletter control sequences out of 15000+600000
  557220 words of font info for 143 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  32i,16n,34p,10374b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (22 pages, 50988 bytes).
+Output written on temp.dvi (22 pages, 51712 bytes).

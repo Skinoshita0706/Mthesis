@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  25 NOV 2021 09:48
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  26 NOV 2021 12:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -875,13 +875,18 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 147.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [3] [4] [5])
+) [3] [4]
+File: ../images/calocalo.jpg Graphic file (type bmp)
+<../images/calocalo.jpg>
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 5.76599pt on input line 200.
+ [5]
+[6])
 \openout2 = `chap2.aux'.
 
-
-(./chap2.tex
+ (./chap2.tex
 第2章
-[6
+[7
 
 
 
@@ -890,7 +895,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap3.tex
 第3章
-[7
+[8
 
 
 
@@ -899,7 +904,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap4.tex
 第4章
-[8
+[9
 
 
 
@@ -908,7 +913,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap5.tex
 第5章
-[9
+[10
 
 
 
@@ -917,7 +922,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap6.tex
 第6章
-[10
+[11
 
 
 
@@ -926,7 +931,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap7.tex
 第7章
-[11
+[12
 
 
 
@@ -935,7 +940,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./chap8.tex
 第8章
-[12
+[13
 
 
 
@@ -944,7 +949,7 @@ File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
  (./appendixA.tex
 付録A
-) [13
+) [14
 
 
 
@@ -957,24 +962,24 @@ Underfull \hbox (badness 3977) in paragraph at lines 7--8
 Run 2 of the LHC",
  []
 
-) [14
+) [15
 
 
 
-] [15
+] [16
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [16
+ [17
 
 ] (./temp.lot)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [17
+ [18
 
 ]
 No file temp.ind.
@@ -994,12 +999,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 16785 strings out of 493648
- 322391 string characters out of 6148806
- 380721 words of memory out of 5000000
- 20139 multiletter control sequences out of 15000+600000
- 557220 words of font info for 143 fonts, out of 8000000 for 9000
+ 16793 strings out of 493648
+ 322511 string characters out of 6148806
+ 380828 words of memory out of 5000000
+ 20146 multiletter control sequences out of 15000+600000
+ 557409 words of font info for 144 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,16n,34p,10374b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,16n,34p,10374b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (22 pages, 51712 bytes).
+Output written on temp.dvi (23 pages, 58864 bytes).

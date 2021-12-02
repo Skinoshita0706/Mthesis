@@ -242,7 +242,7 @@ IBLは、LHCにおける２年間のシャットダウン期間(2012年 - 2014�
 %----------------------------------------------------------------------------
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=7cm,keepaspectratio]{HL-LHC-January-2021_small.jpg}
+  \includegraphics[height=8cm,keepaspectratio]{HL-LHC-January-2021_small.jpg}
   \caption[LHCの運転計画]{2021年1月に作成されたLHCの運転計画 \cite{hl-lhc}。2025年 }
   \label{fig:hl-lhc}
 \end{figure}
@@ -320,20 +320,33 @@ LHCは2010年春から本格運転を開始し、長期運転停止期間(LS: \t
 \subsection{内部飛跡検出器のアップグレード}
 \label{sec:hl-lhc-itk}
 %----------------------------------------------------------------------------
+HL-LHCにおいて、ATLASはこれまでよりもさらに過酷な放射線環境下に晒される。瞬間ルミノシティが現行LHCの設計値の$5 \mathchar`- 7$倍にまで増加するため、現行のATLASを用いてHL-LHCの環境下において測定を行うと主に二つの問題が生じると予想される。
+\begin{itemize}
+\item 瞬間ルミノシティが大きくなることにより、バンチ衝突あたりの生成粒子数が増加し放射線損傷の影響がより大きくなる。検出器のセンサーが放射線損傷を受けると、型変換\footnote{\ref{sec:katahenkan}参照}等が原因で検出効率が低下するため、より高い放射線耐性を持つ検出器が要求される。
+\item 各検出器のヒット占有率の増加である。HL-LHCでは、パイルアップが$200$まで増加すると予想されており内部飛跡検出器での飛跡の数が増加することで、飛跡の識別が困難になり、再構成の性能が大幅に低下する。特に、荷電粒子への感度が高いガス検出器であるTRTでは検出器の占有率が$100\si{\%}$に達してしまうと予想されている。そのため、HL-LHCにおいてはより正確に位置測定ができる検出器が必要になる。
+\end{itemize}
+
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=7cm,keepaspectratio]{itk_display.png}
+  \includegraphics[height=8cm,keepaspectratio]{itk_display.png}
   \caption[ITkの断面図]{ITkの断面図 \cite{itk}。}
-  \label{fig:hl-lhc}
+  \label{fig:hl-lhc-itk}
 \end{figure}
 
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=7cm,keepaspectratio]{atlas_itk.png}
+  \includegraphics[height=8cm,keepaspectratio]{atlas_itk.png}
   \caption[ITkの断面図]{ITkの断面図 \cite{itk}。}
-  \label{fig:hl-lhc}
+  \label{fig:itk-danmen}
 \end{figure}
 
-HL-LHCアップグレードに伴い、ATLASでもアップグレードが予定されており、
+以上の理由により、ATLASの衝突点に最も近い検出器である内部飛跡検出器の総入れ替えを計画している。HL-LHCのために開発されている、新たな内部飛跡検出器をITk(\textbf{I}nner \textbf{T}rac\textbf{k}er)と呼ぶ。
+ITkのデザインを\fref{fig:hl-lhc-itk}に示す。ITkは全てシリコン半導体検出器から構成され、\fref{fig:itk-danmen}に示すように、TRTは廃止されて、内側にピクセル検出器、外側にストリップ検出器が配置されている。
+ピクセル検出器はバレル部の5層とエンドキャップ部の 層、ストリップ検出器はバレル部の4層とエンドキャップ部の6層から構成され、ITk全体で$|\eta|<4$の領域を覆うように配置されている。
+
+
+このような配置により、低いフェイクレート\footnote{fake}や高い飛跡再構成効率を実現することができる。
+現行LHCの検出範囲外であった$2.7<|\eta|$が検出可能になることにより、フェイクレートを抑えつつ、$3\ \si{GeV}$以上のミューオンを$99\si{\%}$以上の効率で検出、さらには$1\ \si{GeV}$以上の電子やパイオンを$85\si{\%}$以上の効率で検出可能となる。
+
 
 \newpage

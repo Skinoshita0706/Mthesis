@@ -3,51 +3,54 @@
 \contentsline {section}{\numberline {1.1}素粒子標準模型}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}標準模型の概要}{1}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}標準模型を超えた新物理の探索}{1}{subsection.1.1.2}
-\contentsline {section}{\numberline {1.2}LHC}{1}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}LHCの基本構造}{1}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}ルミノシティ}{2}{subsection.1.2.2}
-\contentsline {section}{\numberline {1.3}ATLAS実験}{3}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}ATLAS実験で使用される座標系}{3}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}内部飛跡検出器}{4}{subsection.1.3.2}
-\contentsline {subsubsection}{IBL、ピクセル検出器}{4}{section*.4}
-\contentsline {subsubsection}{ストリップ検出器}{5}{section*.5}
-\contentsline {subsubsection}{遷移放射検出器}{5}{section*.6}
-\contentsline {subsection}{\numberline {1.3.3}カロリメータ}{6}{subsection.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}ミューオン検出器}{7}{subsection.1.3.4}
-\contentsline {section}{\numberline {1.4}HL-LHCアップグレード}{7}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}HL-LHCの概要}{8}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}HL-LHC physics}{8}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}内部飛跡検出器のアップグレード}{9}{subsection.1.4.3}
-\contentsline {chapter}{\numberline {第2章}シリコンピクセル検出器}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}半導体検出器の一般論}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}ピクセル検出器}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}現行ピクセル検出器}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}新型ピクセル検出器}{11}{section.2.4}
-\contentsline {chapter}{\numberline {第3章}現行ピクセルモジュールの電荷較正}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}チューニング}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}電荷較正}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}電荷較正における問題点}{12}{section.3.3}
-\contentsline {chapter}{\numberline {第4章}電荷補正の最適化}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}これまでの補正方法}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}電荷較正の補正}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}データが欠陥した際の補正}{13}{section.4.3}
-\contentsline {section}{\numberline {4.4}本章のまとめ}{13}{section.4.4}
-\contentsline {chapter}{\numberline {第5章}次世代ピクセル検出器の量産}{14}{chapter.5}
-\contentsline {section}{\numberline {5.1}新型ピクセル検出器の組み立て工程}{14}{section.5.1}
-\contentsline {section}{\numberline {5.2}品質試験}{14}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}}{14}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}量産における試験結果管理}{14}{section.5.3}
-\contentsline {chapter}{\numberline {第6章}データベースシステムの概要}{15}{chapter.6}
-\contentsline {section}{\numberline {6.1}量産に用いるデータベースの概要}{15}{section.6.1}
-\contentsline {section}{\numberline {6.2}本研究における開発項目}{15}{section.6.2}
-\contentsline {chapter}{\numberline {第7章}試験結果データ管理システムの開発}{16}{chapter.7}
-\contentsline {section}{\numberline {7.1}ピクセル検出器情報の登録}{16}{section.7.1}
-\contentsline {section}{\numberline {7.2}試験結果の管理}{16}{section.7.2}
-\contentsline {section}{\numberline {7.3}試験結果のアップロード・ダウンロード}{16}{section.7.3}
-\contentsline {section}{\numberline {7.4}試験結果の評価}{16}{section.7.4}
-\contentsline {chapter}{\numberline {第8章}まとめ}{17}{chapter.8}
-\contentsline {section}{\numberline {8.1}まとめ}{17}{section.8.1}
-\contentsline {section}{\numberline {8.2}今後の課題}{17}{section.8.2}
-\contentsline {chapter}{\numberline {付録A}AppendixA}{18}{appendix.A}
-\contentsline {chapter}{参考文献}{19}{appendix*.7}
-\contentsline {chapter}{謝辞}{20}{appendix*.8}
+\contentsline {section}{\numberline {1.2}LHC}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}LHCの基本構造}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}ルミノシティ}{3}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.3}ATLAS実験}{4}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}ATLAS実験で使用される座標系}{4}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}内部飛跡検出器}{5}{subsection.1.3.2}
+\contentsline {subsubsection}{IBL、ピクセル検出器}{5}{section*.4}
+\contentsline {subsubsection}{ストリップ検出器}{6}{section*.5}
+\contentsline {subsubsection}{遷移放射検出器}{6}{section*.6}
+\contentsline {subsection}{\numberline {1.3.3}カロリメータ}{7}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}ミューオン検出器}{8}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}HL-LHCアップグレード}{8}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}HL-LHCの概要}{9}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}HL-LHC physics}{9}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}内部飛跡検出器のアップグレード}{10}{subsection.1.4.3}
+\contentsline {chapter}{\numberline {第2章}シリコンピクセル検出器}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}半導体検出器の一般論}{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}ピクセル検出器}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}現行ピクセル検出器}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}新型ピクセル検出器}{12}{section.2.4}
+\contentsline {chapter}{\numberline {第3章}現行ピクセルモジュールの電荷較正}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}チューニング}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}電荷較正}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}電荷較正における問題点}{13}{section.3.3}
+\contentsline {chapter}{\numberline {第4章}電荷補正の最適化}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}これまでの補正方法}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}電荷較正の補正}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}データが欠陥した際の補正}{14}{section.4.3}
+\contentsline {section}{\numberline {4.4}本章のまとめ}{14}{section.4.4}
+\contentsline {chapter}{\numberline {第5章}次世代ピクセル検出器の量産}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}次世代ピクセル検出器の組み立て工程}{15}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}フレキシブル基板・ベアモジュールの接合}{16}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}クーリングセルローディング}{16}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}}{16}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}品質試験}{16}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}}{16}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}量産における試験結果管理}{16}{section.5.3}
+\contentsline {chapter}{\numberline {第6章}データベースシステムの概要}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}量産に用いるデータベースの概要}{17}{section.6.1}
+\contentsline {section}{\numberline {6.2}本研究における開発項目}{17}{section.6.2}
+\contentsline {chapter}{\numberline {第7章}試験結果データ管理システムの開発}{18}{chapter.7}
+\contentsline {section}{\numberline {7.1}ピクセル検出器情報の登録}{18}{section.7.1}
+\contentsline {section}{\numberline {7.2}試験結果の管理}{18}{section.7.2}
+\contentsline {section}{\numberline {7.3}試験結果のアップロード・ダウンロード}{18}{section.7.3}
+\contentsline {section}{\numberline {7.4}試験結果の評価}{18}{section.7.4}
+\contentsline {chapter}{\numberline {第8章}まとめ}{19}{chapter.8}
+\contentsline {section}{\numberline {8.1}まとめ}{19}{section.8.1}
+\contentsline {section}{\numberline {8.2}今後の課題}{19}{section.8.2}
+\contentsline {chapter}{\numberline {付録A}AppendixA}{20}{appendix.A}
+\contentsline {chapter}{参考文献}{21}{appendix*.7}
+\contentsline {chapter}{謝辞}{22}{appendix*.8}

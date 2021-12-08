@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  6 DEC 2021 20:06
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  8 DEC 2021 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,27 +873,27 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  [2]
 File: ../images/physics_bsm.jpg Graphic file (type bmp)
 <../images/physics_bsm.jpg>
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
+ [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
- [3]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
 File: ../images/LHC.jpg Graphic file (type bmp)
 <../images/LHC.jpg>
 
 [4] [5]
 File: ../images/ATLAS.jpg Graphic file (type bmp)
 <../images/ATLAS.jpg>
+ [6]
 File: ../images/atlas_zahyou.png Graphic file (type bmp)
 <../images/atlas_zahyou.png>
- [6]
 File: ../images/InnerDetector.jpg Graphic file (type bmp)
 <../images/InnerDetector.jpg>
 
-Overfull \hbox (7.18748pt too wide) in paragraph at lines 249--250
+Overfull \hbox (7.18748pt too wide) in paragraph at lines 258--259
  [][] 
  []
 
@@ -902,7 +902,7 @@ File: ../images/structureID.png Graphic file (type bmp)
 File: ../images/figures_final_pdf_NewID.png Graphic file (type bmp)
 <../images/figures_final_pdf_NewID.png>
 [7]
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 279.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 288.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -915,28 +915,28 @@ File: ../images/HL-LHC-January-2021_small.jpg Graphic file (type bmp)
 
 [10] [11]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 441.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 439.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 441.
+(Font)              scaled to size 7.68799pt on input line 439.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <8> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 441.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 439.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 441.
+(Font)              scaled to size 7.68799pt on input line 439.
 
 
-LaTeX Warning: Reference `sec:katahenkan' on page 12 undefined on input line 44
-1.
+LaTeX Warning: Reference `sec:katahenkan' on page 12 undefined on input line 43
+9.
 
 File: ../images/itk_display.png Graphic file (type bmp)
 <../images/itk_display.png>
 File: ../images/atlas_itk.png Graphic file (type bmp)
 <../images/atlas_itk.png>
-[12] [13])
+[12] [13] [14])
 \openout2 = `chap2.aux'.
 
  (./chap2.tex
 第2章
-[14
+[15
 
 
 
@@ -945,7 +945,7 @@ File: ../images/atlas_itk.png Graphic file (type bmp)
 
  (./chap3.tex
 第3章
-[15
+[16
 
 
 
@@ -954,7 +954,7 @@ File: ../images/atlas_itk.png Graphic file (type bmp)
 
  (./chap4.tex
 第4章
-[16
+[17
 
 
 
@@ -963,18 +963,23 @@ File: ../images/atlas_itk.png Graphic file (type bmp)
 
  (./chap5.tex
 第5章
+File: ../images/bare.png Graphic file (type bmp)
+<../images/bare.png>
+File: ../images/flex.png Graphic file (type bmp)
+<../images/flex.png>
+[18
+
+
+
+] [19]
 File: ../images/module_flow.png Graphic file (type bmp)
 <../images/module_flow.png>
-[17
-
-
-
-] [18])
+ [20] [21])
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 第6章
-[19
+[22
 
 
 
@@ -983,7 +988,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./chap7.tex
 第7章
-[20
+[23
 
 
 
@@ -992,7 +997,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./chap8.tex
 第8章
-[21
+[24
 
 
 
@@ -1001,7 +1006,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./appendixA.tex
 付録A
-) [22
+) [25
 
 
 
@@ -1012,24 +1017,29 @@ File: ../images/module_flow.png Graphic file (type bmp)
 Missing character: There is no ^^e2 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^93 in font cmr10!
-) [23
+) [26
 
 
 
-] [24
+] [27
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [25
+ [28
 
-] (./temp.lot)
+] (./temp.lot
+
+Package lineno Warning: Linenumber reference failed, 
+(lineno)                rerun to get it right.
+
+)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [26
+ [29
 
 ]
 No file temp.ind.
@@ -1041,7 +1051,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `temp.out' has not changed.
-(rerunfilecheck)             Checksum: 77950B402BBE4288D014FE4EA4590DF3;2604.
+(rerunfilecheck)             Checksum: 7B045F184280BE67CE86E414CA992E2D;2704.
 
 
 LaTeX Warning: There were undefined references.
@@ -1052,12 +1062,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 16952 strings out of 493648
- 324948 string characters out of 6148806
- 389762 words of memory out of 5000000
- 20284 multiletter control sequences out of 15000+600000
+ 16971 strings out of 493648
+ 325181 string characters out of 6148806
+ 390239 words of memory out of 5000000
+ 20301 multiletter control sequences out of 15000+600000
  560163 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,23n,34p,10374b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,23n,34p,10374b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (31 pages, 109088 bytes).
+Output written on temp.dvi (34 pages, 123292 bytes).

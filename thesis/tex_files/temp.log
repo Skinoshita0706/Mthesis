@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  8 DEC 2021 12:27
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  9 DEC 2021 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -974,12 +974,21 @@ File: ../images/flex.png Graphic file (type bmp)
 ] [19]
 File: ../images/module_flow.png Graphic file (type bmp)
 <../images/module_flow.png>
- [20] [21])
+ [20]
+File: ../images/protection.png Graphic file (type bmp)
+<../images/protection.png>
+ [21]
+File: ../images/metrology.png Graphic file (type bmp)
+<../images/metrology.png>
+ [22]
+File: ../images/sldoref.jpg Graphic file (type bmp)
+<../images/sldoref.jpg>
+ [23] [24])
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
 第6章
-[22
+[25
 
 
 
@@ -988,7 +997,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./chap7.tex
 第7章
-[23
+[26
 
 
 
@@ -997,7 +1006,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./chap8.tex
 第8章
-[24
+[27
 
 
 
@@ -1006,7 +1015,7 @@ File: ../images/module_flow.png Graphic file (type bmp)
 
  (./appendixA.tex
 付録A
-) [25
+) [28
 
 
 
@@ -1017,18 +1026,18 @@ File: ../images/module_flow.png Graphic file (type bmp)
 Missing character: There is no ^^e2 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^93 in font cmr10!
-) [26
+) [29
 
 
 
-] [27
+] [30
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [28
+ [31
 
 ] (./temp.lot
 
@@ -1039,7 +1048,7 @@ Package lineno Warning: Linenumber reference failed,
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [29
+ [32
 
 ]
 No file temp.ind.
@@ -1062,12 +1071,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 16971 strings out of 493648
- 325181 string characters out of 6148806
- 390239 words of memory out of 5000000
- 20301 multiletter control sequences out of 15000+600000
+ 16992 strings out of 493648
+ 325525 string characters out of 6148806
+ 390593 words of memory out of 5000000
+ 20319 multiletter control sequences out of 15000+600000
  560163 words of font info for 155 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  32i,23n,34p,10374b,834s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (34 pages, 123292 bytes).
+Output written on temp.dvi (37 pages, 139748 bytes).

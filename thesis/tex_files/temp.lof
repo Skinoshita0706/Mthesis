@@ -26,6 +26,9 @@
 \contentsline {figure}{\numberline {5.9}{\ignorespaces クアッドモジュールのIref Irim部分を表す部分(左図)とワイヤーの配線とIref値の関係。ピンク色のワイヤーの配置により4bitのIref値を表すことができる。}}{27}{figure.5.9}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces pull-up Resistor}}{27}{figure.5.10}
 \addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 中央データベースとローカルデータベース}}{30}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces ローカルデータベースの構造}}{34}{figure.6.2}
 \addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces ピクセル検出器の親子関係}}{35}{figure.7.1}
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  17 DEC 2021 17:25
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  19 DEC 2021 01:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,8 +724,14 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 LaTeX Warning: Label `tab:genkou-hl' multiply defined.
 
-) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux)
-(./chap7.aux
+) (./chap2.aux) (./chap3.aux) (./chap4.aux) (./chap5.aux) (./chap6.aux
+
+LaTeX Warning: Label `fig:localdb-collection' multiply defined.
+
+
+LaTeX Warning: Label `fig:localdb-collection' multiply defined.
+
+) (./chap7.aux
 
 LaTeX Warning: Label `sec:' multiply defined.
 
@@ -1038,38 +1044,70 @@ File: ../images/ryousanDB.png Graphic file (type bmp)
 
 
 
-] [31] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+]
+
+LaTeX Warning: Reference `fig:localdbsystem' on page 31 undefined on input line
+ 70.
+
+File: ../images/localdbsystem.png Graphic file (type bmp)
+<../images/localdbsystem.png>
+[31]
+
+LaTeX Warning: Reference `fig:mongoimage' on page 32 undefined on input line 88
+.
+
+File: ../images/mongoimage.png Graphic file (type bmp)
+<../images/mongoimage.png>
+
+Overfull \hbox (41.26462pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 94.
+nput line 99.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 97.
-
-[32]
-Overfull \hbox (6.48529pt too wide) in paragraph at lines 129--153
+(Font)              scaled to size 8.64899pt on input line 102.
+ [32]
+Overfull \hbox (6.48529pt too wide) in paragraph at lines 134--158
  [] 
  []
 
 File: ../images/localdbcollection.png Graphic file (type bmp)
 <../images/localdbcollection.png>
-[33] [34])
+[33] [34]
+File: ../images/localdbwebapp.png Graphic file (type bmp)
+<../images/localdbwebapp.png>
+File: ../images/localdbwebapp.png Graphic file (type bmp)
+<../images/localdbwebapp.png>
+ [35]
+
+LaTeX Warning: Reference `sec:bad-pix-suii' on page 36 undefined on input line 
+206.
+
+
+LaTeX Warning: Reference `sec:prop-stage' on page 36 undefined on input line 21
+1.
+
+[36])
 \openout2 = `chap7.aux'.
 
  (./chap7.tex
 第7章
 File: ../images/moduleCP.png Graphic file (type bmp)
 <../images/moduleCP.png>
-[35
+[37
 
 
 
-] [36])
+] [38])
 \openout2 = `chap8.aux'.
 
  (./chap8.tex
 第8章
-[37
+[39
 
 
 
@@ -1078,7 +1116,7 @@ File: ../images/moduleCP.png Graphic file (type bmp)
 
  (./appendixA.tex
 付録A
-) [38
+) [40
 
 
 
@@ -1089,25 +1127,25 @@ File: ../images/moduleCP.png Graphic file (type bmp)
 Missing character: There is no ^^e2 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^93 in font cmr10!
- [39
+ [41
 
 
 
-]) [40] [41
+]) [42] [43
 
 
 ] (./temp.lof)
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [42
+ [44
 
 ] (./temp.lot)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
 
-[43
+[45
 
 ]
 No file temp.ind.
@@ -1130,12 +1168,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 18434 strings out of 493648
- 346402 string characters out of 6148806
- 444108 words of memory out of 5000000
- 21737 multiletter control sequences out of 15000+600000
+ 18450 strings out of 493648
+ 346734 string characters out of 6148806
+ 441921 words of memory out of 5000000
+ 21750 multiletter control sequences out of 15000+600000
  560352 words of font info for 156 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 32i,23n,44p,10374b,1302s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,23n,44p,10374b,2376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (48 pages, 187152 bytes).
+Output written on temp.dvi (50 pages, 197964 bytes).

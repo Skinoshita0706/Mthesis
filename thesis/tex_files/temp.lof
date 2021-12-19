@@ -27,8 +27,12 @@
 \contentsline {figure}{\numberline {5.10}{\ignorespaces pull-up Resistor}}{27}{figure.5.10}
 \addvspace {10\jsc@mpt }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces 中央データベースとローカルデータベース}}{30}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces ローカルデータベースの構造}}{34}{figure.6.2}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces 品質試験結果を操作するシステムの全体像}}{32}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces MongoDBの全体像}}{33}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces ローカルデータベースの構造}}{34}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces ローカルデータベースシステムの全体像}}{35}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces ローカルデータベースシステムの全体像}}{36}{figure.6.6}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces ピクセル検出器の親子関係}}{35}{figure.7.1}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces ピクセル検出器の親子関係}}{37}{figure.7.1}
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }

@@ -42,8 +42,13 @@
 \newcommand{\eref}[1]{式~(\ref{#1})}
 \newcommand{\fref}[1]{図~\ref{#1}}
 \newcommand{\tref}[1]{表~\ref{#1}}
+\newcommand{\cref}[1]{Code~\ref{#1}}
 %
 \newcommand{\bhline}[1]{\noalign{\hrule height #1}}  
+\usepackage{otf}
+\newcounter{num}
+\newcommand{\Rnum}[1]{\setcounter{num}{#1} \Roman{num}}
+\newcommand{\rnum}[1]{\setcounter{num}{#1} \roman{num}}
 %
 \graphicspath{{../images/}}
 %

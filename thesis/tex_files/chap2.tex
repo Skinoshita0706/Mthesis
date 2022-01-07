@@ -35,11 +35,11 @@
 
 \fref{fig:pgata}にn型半導体の結晶構造とバンド構造を示す。この図は純粋結晶中のシリコン(Si)の１つをリン(P)で置き換えた場合である。4価の元素であるシリコンを5価のリンで置き換えることにより、価電子中の電子が１つ余る。リンと余った電子間の結合エネルギーは、半導体のバンドギャップ$E_g$より小さい。よって、ドナー準位に束縛された電子は、熱エネルギーに容易に伝導帯に励起され、自由電子となる。添加された5価の元素のことをドナーと呼ぶ。
 \begin{figure}[tbp]
-  \begin{minipage}[b]{0.45\linewidth}
+  \begin{minipage}[b]{0.5\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.25]{ngata1.png}
   \end{minipage}
-  \begin{minipage}[b]{0.45\linewidth}
+  \begin{minipage}[b]{0.5\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.3]{ngata2.png}
   \end{minipage}
@@ -47,7 +47,7 @@
   \label{fig:ngata}
 \end{figure}
 
-\fref{fig:pgata}にp型半導体の結晶構造とバンド構造を示す。この図は純粋結晶中のシリコン(Si)の１つをホウ素(B)で置き換えた場合である。4価の元素であるシリコンを3価のホウ素で置き換えることにより、価電子中の電子が不足し正孔が多くなる。これによって得られる正孔の結合エネルギーは、半導体のバンドギャップ$E_g$より小さい。よって、価電子帯の電子は熱的励起により容易にアクセプター準位に励起される。これにより、価電子帯中に１個の自由な正孔が生じて電流を流すことができる。添加された3価の元素のことをアクセプターと呼ぶ。
+\fref{fig:pgata}にp型半導体の結晶構造とバンド構造を示す。この図は純粋結晶中のシリコン(Si)の１つをホウ素(B)で置き換えた場合である。4価の元素であるシリコンを3価のホウ素で置き換えることにより、価電子中の電子が不足し正孔が多くなる。これによって得られる正孔の結合エネルギーは、半導体のバンドギャップ$E_g$より小さい。よって、価電子帯の電子は熱的励起により容易にアクセプター準位に励起される。これにより、価電子帯中に１個の自由な正孔が生じて電流を流すことができる。添加された3価の元素のことをアクセプターと呼ぶ。
 \begin{figure}[tbp]
   \begin{minipage}[b]{0.45\linewidth}
     \centering
@@ -95,7 +95,7 @@ pn接合から得られる空乏層幅は数$\si{\micro m}$程度である。さ
   \label{eq:bethe}
   \left\langle -\frac{dE}{dx} \right\rangle = Kz^2\frac{Z}{A}\frac{1}{\beta^2}\left[ \frac{1}{2}\ln\frac{2m_c c^2 \beta^2 \gamma^2 W_\mathrm{max}}{I^2} -\beta^2 + \frac{\delta (\beta\gamma)}{2} \right]
 \end{equation}
-この式から、エネルギー損失$dE/dx$は$\beta$の関数であることがわかる。エネルギー損失$dE/dx$と$\beta$の関係を\fref{fig:bethe}に示す。$\beta$が小さい時は、エネルギー損失は$1/\beta^2$に比例する。$\beta\gamma \simeq 3$あたりで、エネルギーは最小値に達する。エネルギー損失が最小となる粒子をMIP(\textbf{M}inimum \textbf{I}onizing \textbf{P}article)と言う。$\beta\gamma\leq4$からは、$\ln\gamma^2$で緩やかに上昇し、一定値に達する。高エネルギーを持った粒子($\beta\gamma>1$)のエネルギー損失は$1\ \si{MeVg^{-1}cm^2}$と$2\ \si{MeVg^{-1}cm^2}$の間にあることがわかる。
+この式から、エネルギー損失$dE/dx$は$\beta$の関数であることがわかる。エネルギー損失$dE/dx$と$\beta$の関係を\fref{fig:bethe}に示す。$\beta$が小さい時は、エネルギー損失は$1/\beta^2$に比例する。$\beta\gamma \simeq 3$あたりで、エネルギー損失は最小値に達する。このエネルギー損失が最小となる粒子をMIP(\textbf{M}inimum \textbf{I}onizing \textbf{P}article)と言う。$\beta\gamma\leq4$からは、$\ln\gamma^2$で緩やかに上昇し、一定値に達する。高エネルギーを持った粒子($\beta\gamma>1$)のエネルギー損失は$1\ \si{MeVg^{-1}cm^2}$と$2\ \si{MeVg^{-1}cm^2}$の間にあることがわかる。
 
 \begin{figure}[tbp]
   \centering
@@ -122,13 +122,19 @@ ATLAS実験において、シリコン検出器は、ビーム衝突点のすぐ
 \label{sec:baruku}
 %------------------------------------------------------------------------------------------------------------------------
 バルク損傷とは、放射線が結晶中のシリコン原子と相互作用し、原子が結晶位置から弾き出される現象である。弾き出された原子が格子間に原子となり、格子点ではない場所に入り込むものをフレンケル欠陥と呼ぶ。また、弾き出された原子が格子点を離れて結晶表面に移動し、結晶内に空孔のみが存在してできる欠陥をショットキー欠陥と呼ぶ。
-\fref{fig:kekkan}にフレンケル欠陥とショットキー欠陥の概念図を示す。
 \begin{figure}[tbp]
-  \centering
-  \includegraphics[height=5cm,keepaspectratio]{kekkan.png}
-  \caption[フレンケル欠陥とショットキー欠陥]{フレンケル欠陥とショットキー欠陥。}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.3]{flenkel.png}
+  \end{minipage}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.3]{shotkey.png}
+  \end{minipage}
+  \caption[フレンケル欠陥とショットキー欠陥]{フレンケル欠陥(左図)とショットキー欠陥(右図)。図中における青丸は原子核を表す。}
   \label{fig:kekkan}
 \end{figure}
+
 
 フレンケル欠陥とショットキー欠陥はどちらも原子核欠損のため、p型不純物として働く。これにより、検出器に以下のような影響を及ぼす。
 \begin{itemize}
@@ -140,7 +146,7 @@ ATLAS実験において、シリコン検出器は、ビーム衝突点のすぐ
 \begin{figure}[tbp]
   \centering
   \includegraphics[height=7cm,keepaspectratio]{katahennkann.png}
-  \caption[放射線損傷による型変換および全空乏化電圧の測定結果]{放射線損傷による型変換および全空乏化電圧の測定結果。}
+  \caption[放射線損傷による型変換および全空乏化電圧の測定結果]{n型シリコン検出器を用いた放射線損傷による型変換および全空乏化電圧の測定結果\cite{typeinversion}。}
   \label{fig:katahennkann}
 \end{figure}
 
@@ -159,7 +165,7 @@ ATLAS実験において、シリコン検出器は、ビーム衝突点のすぐ
 \label{sec:pixelkenshutuki}
 %------------------------------------------------------------------------------------------------------------------------
 
-\fref{fig:pikuserukennshutuki}にピクセルモジュールの模式図を示す。ピクセルモジュールはシリコンセンサー、フロントエンド(FE)チップ、フレキシブル基板から構成される。この節ではそれぞれについて説明する。
+\fref{fig:pikuserukennshutuki}にピクセルモジュールの模式図を示す。ピクセルモジュールはシリコンセンサー、FE(\textbf{F}ront-\textbf{e}nd)チップ、フレキシブル基板から構成される。この節ではそれぞれについて説明する。
 
 \begin{figure}[tbp]
   \centering
@@ -180,43 +186,58 @@ ATLASピクセル検出器に実装するセンサーはプラナーセンサー
 3Dセンサーはセンサー面に対して垂直に柱状の電極インプラントをしたものである。3Dセンサーは電極間の距離が短いことから、全空乏化に必要な電圧が小さい。さらに生成した電子正孔対が電極に到達するまでの距離も短いため、格子欠損により生じたホールにトラップされる確率もプラナーセンサーに比べて小さい。そのため、3Dセンサーはプラナーセンサーに比べて放射線耐性の高いセンサーである。3Dセンサーは放射線損傷の影響が大きいIBLの一部のみに実装されており、ITkの一部にも搭載する予定である。
 
 \begin{figure}[tbp]
-  \centering
-  \includegraphics[height=6cm,keepaspectratio]{3dplanar.png}
-  \caption[シリコンセンサーの模式図]{シリコンセンサーの模式図。}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.5]{planar.png}
+  \end{minipage}
+  \begin{minipage}[b]{0.45\linewidth}
+    \centering
+    \includegraphics[keepaspectratio, scale=0.55]{3dsensor.png}
+  \end{minipage}
+  \caption[プラナーセンサーと3Dセンサーの構造]{プラナーセンサー(左図)と3Dセンサーの構造(右図)。}
   \label{fig:3dplanar}
 \end{figure}
 
+
 %------------------------------------------------------------------------------------------------------------------------
-\subsection{ASIC}
+\subsection{FEチップ}
 \label{sec:ASIC}
 %------------------------------------------------------------------------------------------------------------------------
 
-ASIC(\textbf{A}pplication \textbf{S}pecific \textbf{I}ntegrated \textbf{C}ircuit)は特定用途向けに複数機能を実装した集積回路のことである。センサーの電極で収集された電荷は、バンプを通ってASICに送られる。ASICでは受け取ったアナログ信号を増幅、整形、デジタル処理を行い後段の読み出し基板に信号を送る。
-\fref{fig:asic}にセンサーで発生した電荷がASICから読み出されるまでの概略図を示す。
-\begin{figure}[tbp]
-  \centering
-  \includegraphics[height=6cm,keepaspectratio]{asic.png}
-  \caption[シリコンセンサーの模式図]{シリコンセンサーの模式図。}
-  \label{fig:asic}
-\end{figure}
+FEチップは特定用途向けに複数機能を実装した集積回路(ASIC: \textbf{A}pplication \textbf{S}pecific \textbf{I}ntegrated \textbf{C}ircuit)である。センサーの電極で収集された電荷は、バンプを通ってFEチップに送られる。FEチップでは受け取ったアナログ信号を増幅、整形、デジタル処理を行い後段の読み出し基板に信号を送る。
+%\begin{figure}[tbp]
+%  \centering
+%  \includegraphics[height=6cm,keepaspectratio]{asic.png}
+%  \caption[シリコンセンサーの模式図]{シリコンセンサーの模式図。}
+%  \label{fig:asic}
+%\end{figure}
 
 
 センサーを通過する荷電粒子は、電子正孔対を生成する。シリコンの空乏層で1組の電子正孔対を生成するのに必要なエネルギーは$3.6\ \si{eV}$と一定のため、生成される電子正孔対の数はエネルギー損失$dE/dx$に比例する。
-生成されたキャリアが電極付近に収集され、電極の内部電位に影響を与えて電流が流れる。この電流から得られるアナログ信号をASICにおいて増幅、整形を行う。アナログ信号はアンプ回路により増幅され、三角波になるよう波形整形が行われる。信号処理されたアナログ信号がThresholdを超えた時間幅を測定し、デジタル信号に変換する。このデジタル信号を\textbf{Time over Threshold} (\textbf{ToT})と呼ぶ。アナログ信号をToTに変換する概念図を\fref{fig:tot}に示す。時間幅は$25\ \si{ns}$間隔のクロックの数で取得するため、デジタル信号として取得することができ、この信号が後段のフレキシブル基板へ転送される。
+生成されたキャリアが電極付近に収集され、電極の内部電位に影響を与えて電流が流れる。この電流から得られるアナログ信号をFEチップにおいて増幅、整形を行う。アナログ信号はアンプ回路により増幅され、三角波になるよう波形整形が行われる。信号処理されたアナログ信号がThresholdを超えた時間幅を測定し、デジタル信号に変換する。このデジタル信号を\textbf{Time over Threshold} (\textbf{ToT})と呼ぶ。アナログ信号をToTに変換する概念図を\fref{fig:tot}に示す。時間幅は$25\ \si{ns}$間隔のクロックの数で取得するため、デジタル信号として取得することができ、この信号が後段のフレキシブル基板へ転送される。
 
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=4cm,keepaspectratio]{tot.png}
-  \caption[アナログ信号をToTに変換する概念図]{アナログ信号をToTに変換する概念図。}
+  \includegraphics[height=5cm,keepaspectratio]{tot.png}
+  \caption[アナログ信号をToTに変換する概念図]{アナログ信号をToTに変換する概念図。アナログ信号の三角波はThresholdを超えた時間幅に相当する量であるToTに変換される。}
   \label{fig:tot}
 \end{figure}
 
+また、クロックの間隔が$25\ \si{ns}$と短いため、アナログ信号のパルスの立ち上がりからThresholdを超えるまでの時間である\textbf{タイムウォーク}の効果を考慮する必要がある。電荷量とタイムウォークの関係を\fref{fig:timewalk}に示す。電荷量の低い信号は、タイムウォークの影響が大きくなり、本来とは異なる位置からToTの測定を開始してしまう恐れがある。ATLASにおける陽子衝突は$40\ \si{MHz}$で起きているため、タイムウォークの影響が大きくなるものは異なるイベントと関連付けてしまう可能性がある。そこで、このような影響を抑えるために、\textbf{Intime threshold}を定義する。Intime thresholdはThresholdよりも大きい値になるよう決定され、タイムウォークの影響の制御をする。
 
-ピクセル検出器では\textbf{FE-I3}というASICを用いている。さらに読み出し速度等の性能を向上させたものが、IBLに用いられている\textbf{FE-I4}である。また、HL-LHCアップグレードに向けて新たなASICの開発が進んでいる。ITkに搭載する新型ASICはITk pix v2と呼ばれており、プロトタイプであるRD53\footnote{RD53Aは試験・比較のための３種類のアナログ回路を持っている。}およびITk pix v1\footnote{ITk pix v1はv2と多くの特徴や機能が共通である。}の施策が進んでいる。それぞれのASICの主な仕様の比較を\tref{tab:asicsiyou}に示す。
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[height=6cm,keepaspectratio]{timewalk.png}
+  \caption[電荷量とタイムウォークの関係]{電荷量とタイムウォークの関係 \cite{timewalk}。}
+  \label{fig:timewalk}
+\end{figure}
+
+
+ピクセル検出器では\textbf{FE-I3}というFEチップを用いている。さらに読み出し速度等の性能を向上させたものが、IBLに用いられている\textbf{FE-I4}である。また、HL-LHCアップグレードに向けて新たなFEチップの開発が進んでいる。ITkに搭載する新型FEチップはITk pix v2と呼ばれており、プロトタイプであるRD53\footnote{RD53Aは試験・比較のための３種類のアナログ回路を持っている。}およびITk pix v1\footnote{ITk pix v1はv2と多くの特徴や機能が共通である。}の施策が進んでいる。それぞれのFEチップの主な仕様の比較を\tref{tab:asicsiyou}に示す。
 
 \begin{table}[tbp]
   \begin{center}
-    \caption[各ASICの主な仕様]{各ASICの主な仕様。}
+    \caption[各FEチップの主な仕様]{各FEチップの主な仕様 \cite{itk}。}
     \label{tab:asicsiyou}
     \begin{tabular}{|c||c|c|c|}
     \hline
@@ -237,12 +258,15 @@ ASIC(\textbf{A}pplication \textbf{S}pecific \textbf{I}ntegrated \textbf{C}ircuit
 \end{table}
 
 
+%To operate the chip with the sensor and to avoid problems, which results of high leakage current such as thermal runawy and additional noise, irradiated detectors are cooled down below 0°C.
+
+
 %%------------------------------------------------------------------------------------------------------------------------
 %\subsection{フレキシブル基板}
 %\label{sec:flex}
 %%------------------------------------------------------------------------------------------------------------------------
 %
-%フレキシブル基板はセンサーの裏側(\fref{fig:bare}の上面)に接着、およびワイヤー配線によりASICと電気的に接続される。フレキシブル基板の全体図を\fref{fig:flex}に示す。フレキシブル基板は、以下の３つの役割を持つ。
+%フレキシブル基板はセンサーの裏側(\fref{fig:bare}の上面)に接着、およびワイヤー配線によりFEチップと電気的に接続される。フレキシブル基板の全体図を\fref{fig:flex}に示す。フレキシブル基板は、以下の３つの役割を持つ。
 %
 %\begin{figure}[tbp]
 %  \centering
@@ -253,10 +277,10 @@ ASIC(\textbf{A}pplication \textbf{S}pecific \textbf{I}ntegrated \textbf{C}ircuit
 %
 %フレキシブル基板は、以下の３つの役割を持つ。
 %\begin{itemize}
-%  \item ASICからの信号輸送  \\
-%  センサーから得られた信号はASICで増幅・整形され、フレキシブル基板に送られてくる。フレキシブル基板は送られてきた信号を後段のPCへ送る。
+%  \item FEチップからの信号輸送  \\
+%  センサーから得られた信号はFEチップで増幅・整形され、フレキシブル基板に送られてくる。フレキシブル基板は送られてきた信号を後段のPCへ送る。
 %  \item 電源の供給 \\
-%  外部からの電源を、センサーとASICに供給する。センサーには、空乏領域を増加させるために$100\ \si{V}$程度のHV(\textbf{H}igh \textbf{V}oltage)をかける。ASICには、電源供給のために$5.6\ \si{V}$程度のLV(\textbf{L}ow \textbf{V}oltage)
+%  外部からの電源を、センサーとFEチップに供給する。センサーには、空乏領域を増加させるために$100\ \si{V}$程度のHV(\textbf{H}igh \textbf{V}oltage)をかける。FEチップには、電源供給のために$5.6\ \si{V}$程度のLV(\textbf{L}ow \textbf{V}oltage)
 %  \item モジュールの制御システム(DCS: \textbf{D}etector \textbf{C}ontrol \textbf{S}ystem) \\
 %  モジュールの温度測定のために2つのNTC(\textbf{N}egative \textbf{T}emperature \textbf{C}oefficient)が配置されている。
 %\end{itemize}

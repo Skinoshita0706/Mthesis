@@ -1,26 +1,75 @@
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces フレキシブル基板}}{2}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces ピクセルモジュールの組み立て工程}}{3}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces 読み出し試験のセットアップ}}{4}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces SLDOVI}}{6}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces クアッドモジュールのIref Irim部分を表す部分(左図)とワイヤーの配線とIref値の関係(右図)\cite {lingxin}。ピンク色のワイヤーの配置により4bitのIref値を表すことができる。}}{8}{figure.1.5}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces ヒッグス場との結合定数と素粒子の質量}}{3}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 超対称性粒子}}{4}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces LHCの全体図}}{5}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces ATLAS検出器}}{6}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ATLAS検出器}}{7}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces 内部飛跡検出器の全体像。}}{8}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces 内部飛跡検出器の断面図。}}{8}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 内部飛跡検出器の配置}}{8}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces ATLASカロリメータ}}{10}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces LHCの運転計画}}{11}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces ITkの断面図}}{13}{figure.1.11}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces ITkの断面図}}{14}{figure.1.12}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces 中央データベースとローカルデータベースの設置位置}}{10}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ローカルデータベースの全体像}}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ローカルデータベースの構造}}{15}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ウェブアプリケーションの処理の概念図}}{15}{figure.2.4}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces n型半導体の結晶構造とバンド構造}}{16}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces p型半導体の結晶構造とバンド構造}}{17}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces pn接合の様子}}{17}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces エネルギー損失と$\beta $の関係。}}{18}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces フレンケル欠陥とショットキー欠陥}}{19}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces 放射線損傷による型変換および全空乏化電圧の測定結果}}{20}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces ピクセルモジュールの模式図}}{20}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces プラナーセンサーと3Dセンサーの構造}}{21}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces アナログ信号をToTに変換する概念図}}{22}{figure.2.9}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces 電荷量とタイムウォークの関係}}{22}{figure.2.10}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 非読み出し試験結果のブラウザ出力。}}{19}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ピクセル応答評価機能を用いて作成したピクセル解析結果(左・中央)と２つの差分を用いた比較結果。横軸は評価基準、縦軸は該当する不良ピクセル数を表す。}}{21}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ピクセル解析結果における不良ピクセルの分布(左・中央)と２つの差分を用いた比較結果。各図は二次元ヒストグラムであり、横軸はASICにおける各ピクセルの列番号、縦軸は行番号を示している。}}{21}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces バンプ剥がれが発生したピクセルモジュールについての読み出し試験結果}}{22}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 結果選択画面及び組み立て工程表示の例}}{23}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces ピクセルモジュールの基本特性選択画面}}{25}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 同期ツールの処理のイメージ}}{25}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces ピクセルモジュールの親子関係}}{26}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces ローカルデータベースを用いたピクセルモジュール登録画面}}{30}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces ピクセルモジュール登録機能による処理の流れ}}{31}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 品質試験結果アップロード処理の流れ}}{34}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 品質試験結果ダウンロード処理の流れ}}{38}{figure.3.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 試験電荷生成回路の概略図}}{25}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 検出効率と試験電荷の関係}}{26}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ピクセルモジュールのFEチップ境界付近のピクセルタイプ}}{28}{figure.3.3}
+\addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 電荷較正式\nobreakspace {}(\ref {eq:calibration})を用いてフィッティングした結果}}{30}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 欠陥が含まれるピクセルモジュールについてのThreshold分布}}{30}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ルミノシティに対するToTの変化}}{31}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 電荷較正結果の評価のための$\Delta d$の分布}}{32}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 電荷較正結果の評価のための$\Delta d$の分布}}{33}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 電荷再較正前後のフィッティング結果}}{33}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces データ欠陥の補完方法}}{34}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Thresholdの評価結果}}{35}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Thresholdのノイズの評価結果}}{35}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces 2021年9月に行われたB-Layerについての電荷較正結果}}{38}{figure.4.10}
+\addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces フレキシブル基板}}{40}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ピクセルモジュールの組み立て工程}}{40}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 読み出し試験のセットアップ}}{42}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ASICへの電流と、入力電圧$V_\mathrm {in}$、アナログ回路の出力電圧$V_\mathrm {analog}$およびデジタル回路の出力電圧$V_\mathrm {digital}$の関係}}{44}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces クアッドモジュールのIref Irim部分を表す部分(左図)とワイヤーの配線とIref値の関係(右図)\cite {lingxin}。ピンク色のワイヤーの配置により4bitのIref値を表すことができる。}}{46}{figure.5.5}
+\addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces 中央データベースとローカルデータベースの設置位置}}{48}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces ローカルデータベースの全体像}}{50}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces ローカルデータベースの構造}}{53}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces ウェブアプリケーションの処理の概念図}}{53}{figure.6.4}
+\addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces 非読み出し試験結果のブラウザ出力}}{57}{figure.7.1}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces ピクセル応答評価機能を用いて作成したピクセル解析結果(左・中央)と２つの差分を用いた比較結果。横軸は評価基準、縦軸は該当する不良ピクセル数を表す。}}{59}{figure.7.2}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces ピクセル解析結果における不良ピクセルの分布(左・中央)と２つの差分を用いた比較結果。各図は二次元ヒストグラムであり、横軸はASICにおける各ピクセルの列番号、縦軸は行番号を示している。}}{59}{figure.7.3}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces バンプ剥がれが発生したピクセルモジュールについての読み出し試験結果}}{60}{figure.7.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces 結果選択画面及び組み立て工程表示の例}}{61}{figure.7.5}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces ピクセルモジュールの基本特性選択画面}}{63}{figure.7.6}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces ピクセルモジュールの親子関係}}{64}{figure.7.7}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces ローカルデータベースを用いたピクセルモジュール登録画面}}{68}{figure.7.8}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces ピクセルモジュール登録機能による処理の流れ}}{69}{figure.7.9}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces 品質試験結果アップロード処理の流れ}}{72}{figure.7.10}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces 品質試験結果ダウンロード処理の流れ}}{76}{figure.7.11}
 \addvspace {10\jsc@mpt }
 \addvspace {10\jsc@mpt }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces 外観検査結果のブラウザ表示}}{80}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces 平坦性測定結果のブラウザ表示}}{81}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces 質量測定結果のブラウザ表示}}{82}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces 接着剤情報についてのブラウザ表示}}{82}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces センサー特性測定結果のブラウザ表示}}{83}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces SLDO特性結果のブラウザ表示}}{83}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces ワイヤー強度測定結果のブラウザ表示}}{84}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces ワイヤー配線情報のブラウザ表示}}{84}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces プルアップ抵抗値のブラウザ表示}}{85}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces IrefTrim値のブラウザ表示}}{85}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces ベアモジュールとフレキシブル基板の向きについてのブラウザ表示}}{86}{figure.A.11}

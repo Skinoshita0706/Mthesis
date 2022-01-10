@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  7 JAN 2022 17:57
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  10 JAN 2022 23:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -747,7 +747,15 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./temp.aux (./abstract.aux) (./chap5.aux
+(./temp.aux (./abstract.aux) (./chap1.aux
+
+LaTeX Warning: Label `tab:genkou-hl' multiply defined.
+
+) (./chap2.aux
+
+LaTeX Warning: Label `sec:handoutai' multiply defined.
+
+) (./chap3.aux) (./chap4.aux) (./chap5.aux
 
 LaTeX Warning: Label `sec:mass' multiply defined.
 
@@ -883,17 +891,17 @@ LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 
 ]) [2
 
-] (./temp.toc)
+] (./temp.toc [3
+
+
+])
 \tf@toc=\write5
 \openout5 = `temp.toc'.
 
- [3
+ [4]
+\openout2 = `chap1.aux'.
 
-
-]
-\openout2 = `chap5.aux'.
-
- (./chap5.tex
+ (./chap1.tex
 第1章
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 2.
@@ -912,76 +920,300 @@ LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 11.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 18.
+(Font)              scaled to size 11.09619pt on input line 22.
 LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 18.
-File: ../images/flex.png Graphic file (type bmp)
-<../images/flex.png>
+(Font)              scaled to size 11.09619pt on input line 22.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 44.
+(Font)              scaled to size 8.32214pt on input line 32.
 LaTeX Font Info:    Font shape `JY1/hmc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 44.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              scaled to size 8.32214pt on input line 32.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 53.
- [1
+(Font)              scaled to size 6.47278pt on input line 36.
+[1
 
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 65.
+(Font)              scaled to size 7.39746pt on input line 96.
 LaTeX Font Info:    Font shape `JT1/hmc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 65.
+(Font)              scaled to size 5.5481pt on input line 96.
+File: ../images/higgs.png Graphic file (type bmp)
+<../images/higgs.png>
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 101.
+LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 106.
+LaTeX Font Info:    Font shape `JY1/hmc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 106.
+
+
+LaTeX Warning: Citation `evidenceDark' on page 2 undefined on input line 106.
+
+[2]
+File: ../images/physics_bsm.jpg Graphic file (type bmp)
+<../images/physics_bsm.jpg>
+ [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+File: ../images/LHC.jpg Graphic file (type bmp)
+<../images/LHC.jpg>
+ [4]
+[5]
+File: ../images/ATLAS.jpg Graphic file (type bmp)
+<../images/ATLAS.jpg>
+ [6]
+File: ../images/atlas_zahyou.png Graphic file (type bmp)
+<../images/atlas_zahyou.png>
+File: ../images/InnerDetector.jpg Graphic file (type bmp)
+<../images/InnerDetector.jpg>
+
+Overfull \hbox (7.18748pt too wide) in paragraph at lines 259--260
+ [][] 
+ []
+
+File: ../images/structureID.png Graphic file (type bmp)
+<../images/structureID.png>
+File: ../images/figures_final_pdf_NewID.png Graphic file (type bmp)
+<../images/figures_final_pdf_NewID.png>
+[7]
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 289.
+
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [8]
+File: ../images/calocalo.jpg Graphic file (type bmp)
+<../images/calocalo.jpg>
+ [9]
+File: ../images/HL-LHC-January-2021_small.jpg Graphic file (type bmp)
+<../images/HL-LHC-January-2021_small.jpg>
+
+[10] [11]
+File: ../images/itk_display.png Graphic file (type bmp)
+<../images/itk_display.png>
+File: ../images/atlas_itk.png Graphic file (type bmp)
+<../images/atlas_itk.png>
+ [12] [13]) [14]
+\openout2 = `chap2.aux'.
+
+ (./chap2.tex
+第2章
+[15
+
+
+
+]
+File: ../images/ngata1.png Graphic file (type bmp)
+<../images/ngata1.png>
+File: ../images/ngata2.png Graphic file (type bmp)
+<../images/ngata2.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 38--46
+[][] [] 
+ []
+
+File: ../images/pgata1.png Graphic file (type bmp)
+<../images/pgata1.png>
+File: ../images/pgata2.png Graphic file (type bmp)
+<../images/pgata2.png>
+File: ../images/kuubousou.png Graphic file (type bmp)
+<../images/kuubousou.png>
+[16] [17]
+File: ../images/bethe.png Graphic file (type bmp)
+<../images/bethe.png>
+ [18]
+File: ../images/flenkel.png Graphic file (type bmp)
+<../images/flenkel.png>
+File: ../images/shotkey.png Graphic file (type bmp)
+<../images/shotkey.png>
+File: ../images/katahennkann.png Graphic file (type bmp)
+<../images/katahennkann.png>
+ [19]
+File: ../images/pikuserukennshutuki.png Graphic file (type bmp)
+<../images/pikuserukennshutuki.png>
+ [20]
+File: ../images/planar.png Graphic file (type bmp)
+<../images/planar.png>
+File: ../images/3dsensor.png Graphic file (type bmp)
+<../images/3dsensor.png>
+ [21]
+File: ../images/tot.png Graphic file (type bmp)
+<../images/tot.png>
+File: ../images/timewalk.png Graphic file (type bmp)
+<../images/timewalk.png>
+ [22]) [23]
+\openout2 = `chap3.aux'.
+
+ (./chap3.tex
+第3章
+File: ../images/analog2.png Graphic file (type bmp)
+<../images/analog2.png>
+[24
+
+
+
+] [25]
+File: ../images/threshold.png Graphic file (type bmp)
+<../images/threshold.png>
+ [26]
+File: ../images/pixeltypes.png Graphic file (type bmp)
+<../images/pixeltypes.png>
+ [27]) [28]
+\openout2 = `chap4.aux'.
+
+ (./chap4.tex
+第4章
+File: ../images/goodcalib.png Graphic file (type bmp)
+<../images/goodcalib.png>
+File: ../images/badcalib.png Graphic file (type bmp)
+<../images/badcalib.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 26--34
+[][] [] 
+ []
+
+[29
+
+
+
+]
+File: ../images/thresholdkekkan.png Graphic file (type bmp)
+<../images/thresholdkekkan.png>
+ [30]
+File: ../images/tothennka.png Graphic file (type bmp)
+<../images/tothennka.png>
+
+Overfull \hbox (7.20032pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+[31]
+File: ../images/partialdistance.png Graphic file (type bmp)
+<../images/partialdistance.png>
+File: ../images/saikouseiflow.png Graphic file (type bmp)
+<../images/saikouseiflow.png>
+File: ../images/calibhoseimae.png Graphic file (type bmp)
+<../images/calibhoseimae.png>
+File: ../images/calibhoseigo.png Graphic file (type bmp)
+<../images/calibhoseigo.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 122--130
+[][] [] 
+ []
+
+[32] [33]
+File: ../images/houhousame.png Graphic file (type bmp)
+<../images/houhousame.png>
+File: ../images/houhoudiff.png Graphic file (type bmp)
+<../images/houhoudiff.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 147--155
+[][] [] 
+ []
+
+File: ../images/kekkanthreshold.png Graphic file (type bmp)
+<../images/kekkanthreshold.png>
+File: ../images/kekkannoise.png Graphic file (type bmp)
+<../images/kekkannoise.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 175--187
+[][] [] 
+ []
+
+[34] [35] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 219.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 220.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 220.
+LaTeX Font Info:    Font shape `JT1/hgt/bx/n' in size <9> not available
+(Font)              Font shape `JT1/hgt/m/n' tried instead on input line 220.
+LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 220.
+LaTeX Font Info:    Font shape `JY1/hgt/bx/n' in size <9> not available
+(Font)              Font shape `JY1/hgt/m/n' tried instead on input line 220.
+LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 220.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 220.
+ [36]
+File: ../images/blayernew1.png Graphic file (type bmp)
+<../images/blayernew1.png>
+File: ../images/blayernew2.png Graphic file (type bmp)
+<../images/blayernew2.png>
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 319--327
+[][] [] 
+ []
+
+[37] [38])
+\openout2 = `chap5.aux'.
+
+ (./chap5.tex
+第5章
+File: ../images/flex.png Graphic file (type bmp)
+<../images/flex.png>
+[39
+
+
+
+]
 File: ../images/module_flow.png Graphic file (type bmp)
 <../images/module_flow.png>
- [2]
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+ [40]
 LaTeX Font Info:    Font shape `JT1/cidj/m/0' will be
-(Font)              scaled to size 9.24683pt on input line 110.
+(Font)              scaled to size 9.24683pt on input line 109.
 LaTeX Font Info:    Font shape `JY1/cidj/m/0' will be
-(Font)              scaled to size 9.24683pt on input line 110.
- [3]
+(Font)              scaled to size 9.24683pt on input line 109.
+ [41]
 File: ../images/yomidashi.png Graphic file (type bmp)
 <../images/yomidashi.png>
- [4]
+ [42]
 File: ../images/sldoref.jpg Graphic file (type bmp)
 <../images/sldoref.jpg>
- [5]
-[6]
-Overfull \hbox (3.3998pt too wide) in paragraph at lines 292--317
+ [43] [44]
+Overfull \hbox (3.3998pt too wide) in paragraph at lines 291--316
  [] 
  []
 
-[7]
+[45]
 File: ../images/iref_module.png Graphic file (type bmp)
 <../images/iref_module.png>
 File: ../images/iref_detail.png Graphic file (type bmp)
 <../images/iref_detail.png>
- [8] [9])
+ [46] [47])
 \openout2 = `chap6.aux'.
 
  (./chap6.tex
-第2章
+第6章
 File: ../images/sekainohate.png Graphic file (type bmp)
 <../images/sekainohate.png>
-[10
+[48
 
 
 
 ]
 File: ../images/localdbsystem.png Graphic file (type bmp)
 <../images/localdbsystem.png>
- [11]
+ [49]
 LaTeX Font Info:    Font shape `JT1/hmc/bx/n' in size <8> not available
 (Font)              Font shape `JT1/hgt/m/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
@@ -993,51 +1225,35 @@ LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
  (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 106.
-LaTeX Font Info:    Font shape `JT1/hgt/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 109.
-LaTeX Font Info:    Font shape `JY1/hgt/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 109.
-
-[12]
+[50]
 Overfull \hbox (6.48373pt too wide) in paragraph at lines 142--167
  [] 
  []
 
 File: ../images/localdbcollection.png Graphic file (type bmp)
 <../images/localdbcollection.png>
-[13]
+[51]
 File: ../images/localdbwebapp.png Graphic file (type bmp)
 <../images/localdbwebapp.png>
- [14] [15] [16])
+ [52] [53] [54])
 \openout2 = `chap7.aux'.
 
  (./chap7.tex
-第3章
-[17
+第7章
+[55
 
 
 
-] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [18]
+] [56]
 File: ../images/componentpage.png Graphic file (type bmp)
 <../images/componentpage.png>
 File: ../images/viresult.png Graphic file (type bmp)
 <../images/viresult.png>
-
-[19]
-File: ../images/sum_after.png Graphic file (type bmp)
-<../images/sum_after.png>
+ [57] [58]
 File: ../images/sum_before.png Graphic file (type bmp)
 <../images/sum_before.png>
+File: ../images/sum_after.png Graphic file (type bmp)
+<../images/sum_after.png>
 File: ../images/sum_diff.png Graphic file (type bmp)
 <../images/sum_diff.png>
 File: ../images/bad_before.png Graphic file (type bmp)
@@ -1046,66 +1262,118 @@ File: ../images/bad_after.png Graphic file (type bmp)
 <../images/bad_after.png>
 File: ../images/bad_diff.png Graphic file (type bmp)
 <../images/bad_diff.png>
- [20]
 File: ../images/bumphagare.png Graphic file (type bmp)
 <../images/bumphagare.png>
 File: ../images/signoff.png Graphic file (type bmp)
 <../images/signoff.png>
- [21] [22] [23]
+ [59] [60] [61]
 File: ../images/signoffprop.png Graphic file (type bmp)
 <../images/signoffprop.png>
- [24]
-File: ../images/doukitool.png Graphic file (type bmp)
-<../images/doukitool.png>
+ [62]
 File: ../images/moduleCP.png Graphic file (type bmp)
 <../images/moduleCP.png>
- [25]
-Overfull \hbox (11.39732pt too wide) in paragraph at lines 385--386
+ [63]
+Overfull \hbox (11.39732pt too wide) in paragraph at lines 384--385
  [] 
  []
 
-[26] [27] [28] [29]
+[64] [65] [66] [67]
 File: ../images/moduletouroku.png Graphic file (type bmp)
 <../images/moduletouroku.png>
- [30]
 File: ../images/registerflow.png Graphic file (type bmp)
 <../images/registerflow.png>
- [31]
+ [68] [69]
 
-LaTeX Warning: Float too large for page by 51.66135pt on input line 714.
+LaTeX Warning: Float too large for page by 51.66135pt on input line 713.
 
-[32] [33]
 File: ../images/uploadflow.png Graphic file (type bmp)
 <../images/uploadflow.png>
- [34] [35] [36] [37]
+[70] [71] [72] [73] [74]
 File: ../images/downloadflow.png Graphic file (type bmp)
 <../images/downloadflow.png>
- [38] [39])
+ [75] [76] [77])
 \openout2 = `chap8.aux'.
 
  (./chap8.tex
-第4章
-[40
+第8章
+[78
 
 
 
-])
+] [79])
 \openout2 = `appendixA.aux'.
 
  (./appendixA.tex
 付録A
-) [41
+File: ../images/optical_pic.png Graphic file (type bmp)
+<../images/optical_pic.png>
+File: ../images/metrology_pic.png Graphic file (type bmp)
+<../images/metrology_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/mass_pic.png Graphic file (type bmp)
+<../images/mass_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/glue_pic.png Graphic file (type bmp)
+<../images/glue_pic.png>
+
+Overfull \hbox (4.46507pt too wide) in paragraph at lines 35--36
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/sensoriv_pic.png Graphic file (type bmp)
+<../images/sensoriv_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/sldovi_pic.png Graphic file (type bmp)
+<../images/sldovi_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/wirebondpull_pic.png Graphic file (type bmp)
+<../images/wirebondpull_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/wireinfo_pic.png Graphic file (type bmp)
+<../images/wireinfo_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/pullup_pic.png Graphic file (type bmp)
+<../images/pullup_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/iref_pic.png Graphic file (type bmp)
+<../images/iref_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../images/orientation_pic.png Graphic file (type bmp)
+<../images/orientation_pic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [80
 
 
 
-]
+] [81] [82] [83] [84] [85] [86]
 \openout2 = `bibliography.aux'.
 
  (./bibliography.tex
 Missing character: There is no ^^e2 in font cmr10!
 Missing character: There is no ^^80 in font cmr10!
 Missing character: There is no ^^93 in font cmr10!
- [42
+ [87
 
 
 
@@ -1115,31 +1383,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 web . cern . ch / Atlas / GROUPS / PHYSICS / PLOTS /
  []
 
-) [43] [44
+) [88] [89
 
 
-] (./temp.lof)
+] (./temp.lof [90
+
+] [91])
 \tf@lof=\write6
 \openout6 = `temp.lof'.
 
- [45
-
-] (./temp.lot)
+ [92] (./temp.lot)
 \tf@lot=\write7
 \openout7 = `temp.lot'.
 
- [46
+ [93
 
 ]
 No file temp.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
-(./temp.aux (./abstract.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux)
-(./chap8.aux) (./appendixA.aux) (./bibliography.aux))
+(./temp.aux (./abstract.aux) (./chap1.aux) (./chap2.aux) (./chap3.aux)
+(./chap4.aux) (./chap5.aux) (./chap6.aux) (./chap7.aux) (./chap8.aux)
+(./appendixA.aux) (./bibliography.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 141.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `temp.out' has not changed.
-(rerunfilecheck)             Checksum: 7DCF7F725B361AFC4F2B7AA0261E1B8B;1815.
+(rerunfilecheck)             Checksum: EFE8CE5A3B750735125A918DE6732DF8;3137.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1147,12 +1419,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 20208 strings out of 493648
- 367820 string characters out of 6148806
- 511194 words of memory out of 5000000
- 23525 multiletter control sequences out of 15000+600000
- 557928 words of font info for 157 fonts, out of 8000000 for 9000
+ 20802 strings out of 493648
+ 376697 string characters out of 6148806
+ 578949 words of memory out of 5000000
+ 24031 multiletter control sequences out of 15000+600000
+ 560493 words of font info for 167 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 37i,26n,62p,10374b,2376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,26n,62p,10374b,2355s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (50 pages, 250800 bytes).
+Output written on temp.dvi (98 pages, 477164 bytes).

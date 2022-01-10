@@ -45,7 +45,6 @@ RUN3に向けた現行ピクセルモジュールの測定準備に加え、ATLA
   \label{fig:flex}
 \end{figure}
 
-フレキシブル基板は、以下の３つの役割を持つ。
 \begin{itemize}
   \item ASICからの信号輸送  \\
   センサーから得られた信号はASICで増幅・整形され、フレキシブル基板に送られてくる。フレキシブル基板は送られてきた信号を後段のPCへ送る。
@@ -197,7 +196,7 @@ ASIC回路内部で一定の電圧を供給するために、SLDO(\textbf{S}hunt
 \begin{figure}[tbp]
   \centering
   \includegraphics[height=7cm,keepaspectratio]{sldoref.jpg}
-  \caption[SLDOVI]{SLDOVI}
+  \caption[ASICへの電流と、入力電圧$V_\mathrm{in}$、アナログ回路の出力電圧$V_\mathrm{analog}$およびデジタル回路の出力電圧$V_\mathrm{digital}$の関係]{ASICへの電流と、入力電圧$V_\mathrm{in}$、アナログ回路の出力電圧$V_\mathrm{analog}$およびデジタル回路の出力電圧$V_\mathrm{digital}$の関係\cite{sldo}。}
   \label{fig:sldoref}
 \end{figure}
 この結果から、SLDO回路によりアナログ回路およびデジタル回路からの出力電圧は一定であり、制御回路が正常に動作していることがわかる。
@@ -232,7 +231,7 @@ ASIC回路内部で一定の電圧を供給するために、SLDO(\textbf{S}hunt
 %------------------------------------------------------------------------------------------------------------------------
 モジュールに通電し、正常に読み出しができるか確認する。読み出し試験はITk運転時の温度環境を想定し、モジュールの周囲温度を変えつつ試験を行う。そのため、読み出し試験の際には低温耐久試験と同様に\fref{fig:yomidashi}の温度制御筐体を用いて試験を行う。設定温度は、低温におけるモジュール起動試験では$-35\ \si{\degreeCelsius}$ (正常に起動できない場合は$15\ \si{\degreeCelsius}$ずつ温度を上げて試験)、Threshold測定やToT測定等の通常の読み出し試験では$-20\ \si{\degreeCelsius}, 20\ \si{\degreeCelsius}$である。
 
-読み出し試験に用いるDAQ(Data AcQuisition)として、YARR(\textbf{Y}et \textbf{A}nother \textbf{R}apid \textbf{R}eadout)を用いる。YARRとはASIC読み出しように開発されている。YARRを用いて行う、モジュールの読み出し試験の項目を以下に示す。
+読み出し試験に用いるDAQ(\textbf{D}ata \textbf{A}c\textbf{q}uisition)として、YARR(\textbf{Y}et \textbf{A}nother \textbf{R}apid \textbf{R}eadout)を用いる。YARRとはASIC読み出しように開発されている。YARRを用いて行う、モジュールの読み出し試験の項目を以下に示す。
 
 \begin{itemize}
   \item Digitalスキャン \\
@@ -246,7 +245,7 @@ ASIC回路内部で一定の電圧を供給するために、SLDO(\textbf{S}hunt
   \item Noiseスキャン \\
   各ピクセルのノイズを確認する。試験電荷を用いず、クロックによるトリガーで測定を行い、応答率を求める。
   \item Sourceスキャン \\
-  放射線を照射し、各ピクセルの応答を確認する。これにより、シリコンセンサーやセンサーとASIC間の接続の不具合等も確認することができる。
+  放射線を照射し、各ピクセルの応答を確認する。これにより、シリコンセンサーとASIC間の接続の不具合等も確認することができる。
 \end{itemize}
 
 また、これらのスキャン項目に加え、ピクセルのチューニングも行うことがある。
@@ -323,22 +322,22 @@ ASIC回路内部で一定の電圧を供給するために、SLDO(\textbf{S}hunt
 %------------------------------------------------------------------------------------------------------------------------
 モジュールの特性として、以下のようのものが定義されている。
 \begin{itemize}
-  \item FE chip version \\
-  モジュールの部品となっているASICの種類を入力する。現在行っている試作器はRD53Aであり、ITkに向けたモジュール量産ではITkpix\_v2を用いる予定である。
+  \item FEチップの種類 \\
+  モジュールの部品となっているFEチップの種類を入力する。現在行っている試作器はRD53Aであり、ITkに向けたモジュール量産ではITkpix\_v2を用いる予定である。
   \item Thickness \\
   センサーの厚さの情報を入力する。この特性に入力する値としては"thin"と"thick"があり、それぞれセンサーの厚みが$150\ \si{\micro m}$と$300\ \si{\micro m}$である。
   \item Roof \\
   モジュールのワイヤー部を保護する構造体の有無を記録する。
-  \item IrefTrim\\
+  \item IrefTrim値\\
   全てのDAC\footnote{D/Aコンバーターとも呼ぶ。}(\textbf{D}igital \textbf{A}nalog \textbf{C}onverter)は"IREF"と呼ばれるグローバルなレファレンスから$4\ \si{\micro A}$の電流を生成する。Irefの値はワイヤー配線の際に4bitの値で決められる。ワイヤー配線とIref値の関係を\fref{fig:iref-detail}に示す。
-  \item Pull-up registor\\
-  プルアップ抵抗とは、電子回路の入力端子に接続される抵抗であり、スイッチがオフの状態の時に電圧が一定の値を安定して維持できるようにするためのものである。アナログ回路への電源$VDDA$とプルアップ抵抗値についての関係を\tref{tab:pull-up}に示す。
+  \item プルアップ抵抗値\\
+  プルアップ抵抗とは、電子回路の入力端子に接続される抵抗であり、スイッチがオフの状態の時に電圧が一定の値を安定して維持できるようにするためのものである。アナログ回路への電源VDDAとプルアップ抵抗値についての関係を\tref{tab:pull-up}に示す。
 %  Compare VREF\_A\_Trim at DAC count 16 with VDDA on hybrid after power-up \\
 %  For the chip to start up, VDDA > 1.14A\\
 %  If this is lower, you need to add a pull-up resistor!\\
 %  NTCに関係がある？ \\
-  \item PCB-Bare Orientation \\
-  ベアモジュールとフレックス基板の向きが正しいか確認する。
+  \item ベアモジュールとフレキシブル基板の向き \\
+  ベアモジュールとフレキシブル基板の向きが正しいか確認する。
   %ベアモジュールの見た目は、$180\si{\degree}$回転対称になっている。そのため、フレックス基板とベアモジュールの貼り付け工程で誤って$180\si{\degree}$回転した状態で接合してしまうことがある。この誤りは、ワイヤー配線後に行う読み出し試験の際に初めて確認される。その場合は、ベアモジュールとフレックス基板の向きについての特性を書き直す必要がある。
 \end{itemize}
 
@@ -370,17 +369,17 @@ ASIC回路内部で一定の電圧を供給するために、SLDO(\textbf{S}hunt
     \hline
       VDDA [\si{V}] & Pull-up Resistorが必要か & Pull-up Resistorの値 [$\si{\ohm}$] & VDDAの増加量\\
     \bhline{1.5pt}
-     $VDDA\leq 1.09$ & Yes & 150 & 0.1 \\
+     $\mathrm{VDDA}\leq 1.09$ & 必要 & 150 & 0.1 \\
     \hline
-     $1.09 < VDDA \leq 1.14$ & Yes & 300 & 0.05 \\
+     $1.09 < \mathrm{VDDA} \leq 1.14$ & 必要 & 300 & 0.05 \\
     \hline
-     $1.14 > VDDA$ & No & n/a & n/a \\
+     $1.14 > \mathrm{VDDA}$ & 不要 & n/a & n/a \\
     \hline
     \end{tabular}
   \end{center}
 \end{table}
 
-上記に示したモジュールの特性のうち、FEチップ version等の情報はモジュールの作成と同時に決まるものである。しかし、Iref値やプルアップ抵抗値についての特性はワイヤー配線後に初めて確認できるものであるため、品質試験を行う際に並行して確認する必要がある。
+上記に示したモジュールの特性のうち、FEチップの種類等の情報はモジュールの組み立てを始めると同時に決まるものである。しかし、Iref値やプルアップ抵抗値についての特性はワイヤー配線後に初めて確認できるものであるため、品質試験を行う際に並行して確認する必要がある。
 
 また、ベアモジュールの見た目は、$180\si{\degree}$回転対称になっている。そのため、フレックス基板とベアモジュールの貼り付け工程で誤って$180\si{\degree}$回転した状態で接合してしまうことがある。この誤りは、ワイヤー配線後に行う読み出し試験の際に初めて確認される。その場合は、ベアモジュールとフレックス基板の向きについての特性を書き直す必要がある。
 

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  10 JAN 2022 23:45
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.7.12)  12 JAN 2022 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,7 +1017,7 @@ File: ../images/ngata1.png Graphic file (type bmp)
 File: ../images/ngata2.png Graphic file (type bmp)
 <../images/ngata2.png>
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 38--46
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 39--47
 [][] [] 
  []
 
@@ -1025,19 +1025,19 @@ File: ../images/pgata1.png Graphic file (type bmp)
 <../images/pgata1.png>
 File: ../images/pgata2.png Graphic file (type bmp)
 <../images/pgata2.png>
+[16]
 File: ../images/kuubousou.png Graphic file (type bmp)
 <../images/kuubousou.png>
-[16] [17]
+ [17]
 File: ../images/bethe.png Graphic file (type bmp)
 <../images/bethe.png>
- [18]
 File: ../images/flenkel.png Graphic file (type bmp)
 <../images/flenkel.png>
 File: ../images/shotkey.png Graphic file (type bmp)
 <../images/shotkey.png>
+ [18] [19]
 File: ../images/katahennkann.png Graphic file (type bmp)
 <../images/katahennkann.png>
- [19]
 File: ../images/pikuserukennshutuki.png Graphic file (type bmp)
 <../images/pikuserukennshutuki.png>
  [20]
@@ -1050,7 +1050,9 @@ File: ../images/tot.png Graphic file (type bmp)
 <../images/tot.png>
 File: ../images/timewalk.png Graphic file (type bmp)
 <../images/timewalk.png>
- [22]) [23]
+File: ../images/rd53a.png Graphic file (type bmp)
+<../images/rd53a.png>
+ [22] [23])
 \openout2 = `chap3.aux'.
 
  (./chap3.tex
@@ -1065,8 +1067,8 @@ File: ../images/analog2.png Graphic file (type bmp)
 File: ../images/threshold.png Graphic file (type bmp)
 <../images/threshold.png>
  [26]
-File: ../images/pixeltypes.png Graphic file (type bmp)
-<../images/pixeltypes.png>
+File: ../images/pixeltypes2.png Graphic file (type bmp)
+<../images/pixeltypes2.png>
  [27]) [28]
 \openout2 = `chap4.aux'.
 
@@ -1378,7 +1380,7 @@ Missing character: There is no ^^93 in font cmr10!
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []\OT1/cmr/m/n/10 ATLAS physics plots, []$\OT1/cmtt/m/n/10 https : / / atlas . 
 web . cern . ch / Atlas / GROUPS / PHYSICS / PLOTS /
  []
@@ -1419,12 +1421,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 20802 strings out of 493648
- 376697 string characters out of 6148806
- 578949 words of memory out of 5000000
- 24031 multiletter control sequences out of 15000+600000
+ 20807 strings out of 493648
+ 376776 string characters out of 6148806
+ 579359 words of memory out of 5000000
+ 24035 multiletter control sequences out of 15000+600000
  560493 words of font info for 167 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 37i,26n,62p,10374b,2355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,28n,62p,10374b,2355s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on temp.dvi (98 pages, 477164 bytes).
+Output written on temp.dvi (98 pages, 483680 bytes).

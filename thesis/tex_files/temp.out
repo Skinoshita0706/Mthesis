@@ -6,10 +6,10 @@
 \BOOKMARK [1][-]{section.1.4}{HL-LHCアップグレード}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{シリコンピクセル検出器}{}% 7
 \BOOKMARK [1][-]{section.2.1}{シリコン検出器}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.2}{放射線損傷}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.3}{ピクセル検出器}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{ピクセルモジュール}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{放射線損傷}{chapter.2}% 10
 \BOOKMARK [0][-]{chapter.3}{現行ピクセルモジュールの電荷較正}{}% 11
-\BOOKMARK [1][-]{section.3.1}{試験電荷生成回路}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.1}{アナログ回路}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.2}{電荷較正手法}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.3}{電荷較正結果の履歴}{chapter.3}% 14
 \BOOKMARK [0][-]{chapter.4}{電荷補正の最適化}{}% 15
@@ -38,5 +38,5 @@
 \BOOKMARK [0][-]{appendix.A}{ローカルデータベースのブラウザ表示}{}% 38
 \BOOKMARK [1][-]{section.A.1}{非読み出し試験結果のブラウザ表示}{appendix.A}% 39
 \BOOKMARK [1][-]{section.A.2}{ピクセルモジュール基本特性のブラウザ表示}{appendix.A}% 40
-\BOOKMARK [0][-]{appendix*.25}{参考文献}{}% 41
-\BOOKMARK [0][-]{appendix*.26}{謝辞}{}% 42
+\BOOKMARK [0][-]{appendix*.26}{参考文献}{}% 41
+\BOOKMARK [0][-]{appendix*.27}{謝辞}{}% 42

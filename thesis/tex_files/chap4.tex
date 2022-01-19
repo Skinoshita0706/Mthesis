@@ -10,7 +10,7 @@ Thresholdのチューニングおよび電荷較正を行った後、それぞ�
 \label{sec:hoseigaiyou}
 %------------------------------------------------------------------------------------------------------------------------
 
-電荷較正では、ピクセル検出器およびIBLに搭載された計28400個のFEチップを操作するため、全てが正常に機能しないことがある。電荷較正における問題は主に以下の2つがあげられる。
+電荷較正では、ピクセル検出器およびIBLに搭載された計28400個のFEチップを同時に操作するため、全てが正常に機能しないことがある。電荷較正における問題は主に以下の2つがあげられる。
 %本節ではそれぞれについての問題の原因とこれまでの補完方法について説明する。
 
 \begin{itemize}
@@ -18,9 +18,7 @@ Thresholdのチューニングおよび電荷較正を行った後、それぞ�
   \item[2. ] データの欠陥
 \end{itemize}
 
-1つ目の問題に関して、ピクセルモジュールの電荷較正ではFEチップに搭載された回路を用いて試験電荷を生成し、ThresholdスキャンやToTスキャンを行う。電荷生成のための回路のいずれかの部分に故障等の問題があると、誤った試験電荷を生成してしまう。問題がある場合とない場合の試験電荷について、電荷較正\eref{eq:calibration}を用いてフィッティングした結果を\fref{fig:calibhikaku}に示す。\fref{fig:calibhikaku}において、左図は理想的なフィッティング結果を表しており、全ての点がフィット曲線上に乗っていることがわかる。この様に、ToTとセンサーが落とす電荷量は、おおよそ比例関係にあることがわかる。
-
-一方で、右図は電荷生成の回路に問題のあるFEチップにおける電荷較正結果であり、電荷量の大きい3つの試験電荷についてToTの値がほとんど同じ値になっている。この原因は、試験電荷生成のための回路における電圧$V_\mathrm{cal}$には上限があり、一定以上の電荷が生成できずに飽和してしまうことである。\fref{fig:calibhikaku}の右図の場合は、正しいToTが得られていないと考えられる大きい2点を取り除き、再較正を行う必要がある。
+1つ目の問題に関して、ピクセルモジュールの電荷較正ではFEチップに搭載された回路を用いて試験電荷を生成し、ThresholdスキャンやToTスキャンを行う。電荷生成のための回路のいずれかの部分に故障等の問題があると、誤った試験電荷を生成してしまう。問題がある場合とない場合の試験電荷について、電荷較正\eref{eq:calibration}を用いてフィッティングした結果を\fref{fig:calibhikaku}に示す。\fref{fig:calibhikaku}において、左図は理想的なフィッティング結果を表しており、全ての点がフィット曲線上に乗っていることがわかる。この様に、ToTとセンサーが落とす電荷量は、おおよそ線形関係にあることがわかる。
 
 \begin{figure}[tbp]
   \begin{minipage}[b]{0.5\linewidth}
@@ -35,7 +33,20 @@ Thresholdのチューニングおよび電荷較正を行った後、それぞ�
   \label{fig:calibhikaku}
 \end{figure}
 
-2つ目の問題に関して、あるFEチップに対してスキャンが失敗してしまった時にデータが欠陥してしまうことがある。あるピクセルモジュールについて全てのデータが欠陥してしまっている場合には、直前に行われたの電荷較正結果をコピーすることにより補完を行う。また、ピクセルモジュールにおいてデータの一部が欠陥してしまっている場合は最も近いFEチップから値をコピーすることにより補完を行う。ピクセルモジュールの一部のFEチップに欠陥が含まれるThresholdの分布を\fref{fig:thresholdkekkan}に示す。\fref{fig:thresholdkekkan}の場合は、ピクセルモジュールに搭載された16個のFEチップの内の１つ(図中のI6の部分)についてのThreshold値が欠陥しており、値が全て0となっている。このように一部のみにデータの欠陥が見つかった場合は、最も近いFEチップ(\fref{fig:thresholdkekkan}の場合はI5、I7、I9のいずれか１つ)から値をコピーすることによって補完作業を行っていた。
+一方で、右図は電荷生成の回路に問題のあるFEチップにおける電荷較正結果であり、電荷量の大きい3つの試験電荷についてToTの値がほとんど同じ値になっている。この原因は、試験電荷生成のための回路における電圧$V_\mathrm{cal}$の生成機構にある。$V_\mathrm{cal}$は\textbf{Plsr DAC}と呼ばれる$10\ \si{bit}$の値により決定される。$V_\mathrm{cal}$と$\mathrm{Plsr\ DAC}$の関係は\eref{eq:vcal}のように、１次式で与えられる。
+\begin{equation}
+  \label{eq:vcal}
+  V_\mathrm{cal} = a + b\ (\mathrm{Plsr\ DAC})\ [\si{mV}]
+\end{equation}
+ここで、$a,\ b$は較正によって決定される定数であり、FEチップごとに個体差がある。あるFEチップに対する$V_\mathrm{cal}$とPlsr DACの関係の測定結果を\fref{fig:vcalplot}に示す。この図において、$\mathrm{Plsr\ DAC}\approx 750$までは$V_\mathrm{cal}$とPlsr DACの値が線形となっているが、それ以降のPlsr DAC値においては$V_\mathrm{cal}$が飽和していることがわかる。この$V_\mathrm{cal}$の飽和は、試験電荷生成回路におけるキャパシタ$C_\mathrm{low}$および$C_\mathrm{high}$の内、$C_\mathrm{low}$のみを用いて試験電荷を生成した場合に発生しやすいことがわかっている \cite{houwa}。\fref{fig:analog}に示したように、$C_\mathrm{high}$の前に配置されているスイッチを用いる事により使用するキャパシタの選択を行うことができる。電荷較正の際には、$C_\mathrm{low}$のみを用いるためこのスイッチは開放されているが、$V_\mathrm{cal}$の値が大きいときにはグランドへのリーク電流が大きくなってしまう。そのため、ある値以上の電荷を持つ試験電荷を正確に取得することができず、正しい電荷較正結果が得られない。$V_\mathrm{cal}$の飽和が起きていると予想される\fref{fig:calibhikaku}の右図の場合は、電荷較正に使用された試験電荷の内、正しいToTが得られていない2点を取り除き、再較正を行う必要がある。
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[height=7cm,keepaspectratio]{vcalplsr.png}
+  \caption[$V_\mathrm{cal}$とPlsr DACの関係の測定結果]{$V_\mathrm{cal}$とPlsr DACの関係の測定結果 \cite{vcal}。黒点は各Plsr DACに対する$V_\mathrm{cal}$の測定点を表し、赤線は\eref{eq:vcal}を用いたフィッティング結果である。図中における$V_\mathrm{slope}$は赤線の傾きであり、\eref{eq:vcal}における$b$に対応する。}
+  \label{fig:vcalplot}
+\end{figure}
+
+2つ目の問題に関して、あるFEチップに対してスキャンが失敗してしまった時にデータが欠陥してしまうことがある。あるピクセルモジュールについて全てのデータが欠陥してしまっている場合には、直前に行われた電荷較正結果をコピーすることにより補完を行う。また、ピクセルモジュールにおいてデータの一部が欠陥してしまっている場合は最も近いFEチップから値をコピーすることにより補完を行う。ピクセルモジュールの一部のFEチップに欠陥が含まれるThresholdの分布を\fref{fig:thresholdkekkan}に示す。\fref{fig:thresholdkekkan}の場合は、ピクセルモジュールに搭載された16個のFEチップの内の１つ(図中のI6の部分)についてのThreshold値が欠陥しており、値が全て0となっている。このように一部のみにデータの欠陥が見つかった場合は、最も近いFEチップ(\fref{fig:thresholdkekkan}の場合はI5、I7、I9のいずれか１つ)から値をコピーすることによって補完作業を行っていた。
 
 \begin{figure}[tbp]
   \centering
@@ -45,18 +56,49 @@ Thresholdのチューニングおよび電荷較正を行った後、それぞ�
 \end{figure}
 
 %------------------------------------------------------------------------------------------------------------------------
-\subsection{これまでの電荷補正の補正}
+\subsection{これまでの電荷較正の再補正}
 \label{sec:prehosei}
 %------------------------------------------------------------------------------------------------------------------------
 
-ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュールについて電荷較正を行うが、測定を行っていると放射線損傷の影響によって、補正値がずれてしまう。\fref{fig:thresholdhennka}にRUN2におけるIBLのMIP粒子に対するToTの推移を示す。IBLではMIP粒子がセンサーに落とす電荷量は$16\ \si{ke}$であるが、センサーが放射線損傷を受けることにより電荷量が少し増え、ToTの値が目標値である$10\ \si{ToT}$より大きくなっている様子が見える。目標値からのずれを補正するため、2018年における電荷較正は2週間から4週間の周期で行っており、電荷較正の後には\ref{sec:hoseigaiyou}節で説明した問題を取り除くため、補完作業を行う必要がある。
+ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュールについて電荷較正を行うが、測定を行っていると放射線損傷の影響によって、補正値がずれてしまう。\fref{fig:thresholdhennka}にRUN2におけるIBLのMIP粒子に対するToTの推移を示す。
+このToTの推移はセンサーがトータルドーズ効果による放射線損傷を受けることによるものである。
+放射線損傷が小さい場合(TID $\leq1$-$6\ [\si{Mrad}]$)、FEチップ電流は増加する。そのため、実行的なThreshold値が大きくなり、MIP粒子に対するToTは小さくなる(\fref{fig:thresholdhennka}の上図)。
+一方で、放射線損傷が大きい場合(TID $\geq1$-$6\ [\si{Mrad}]$)、FEチップ電流は小さくなる。そのため、実行的なThreshold値が小さくなり、ToTの値は大きくなる(\fref{fig:thresholdhennka}の下図)。
+
+%トータルドーズ効果とセンサーの漏れ電流の関係を\fref{fig:totaldoze}示す。
+
+%IBLではMIP粒子がセンサーに落とす電荷量は$16\ \si{ke}$であるが、
+このように、放射線損傷を受けることによりToTの値が目標値である$10\ \si{ToT}$から変化していることがわかる。目標値からのずれを補正するため、2018年における電荷較正は2週間から4週間の周期で行っており、電荷較正の後には\ref{sec:hoseigaiyou}節で説明した問題を取り除くため、補完作業を行う必要がある。
 
 \begin{figure}[tbp]
   \centering
+  \includegraphics[height=7.8cm,keepaspectratio]{tothennkarow.png}
   \includegraphics[height=7.5cm,keepaspectratio]{tothennka.png}
-  \caption[ルミノシティに対するToTの変化]{ルミノシティに対するToTの変化 \cite{tothennka}。IBLのToTの目標値は$16\ \si{ke}$の電荷量に対して$10\ \si{ToT}$であるが、放射線損傷の影響を受け目標値からずれてしまう。}
+  \caption[ルミノシティに対するToTの変化]{IBLのルミノシティに対するToTの変化 。上図は2015年におけるToTの変化\cite{tothenkarow}であり、左端はRun2開始時を表す。下図は2018年におけるToTの変化\cite{tothennka}で右端はRun2の最後を表す。IBLのToTの目標値は$16\ \si{ke}$の電荷量に対して$10\ \si{ToT}$であるが、トータルドーズ効果の影響を受け目標値からずれてしまう。}
   \label{fig:thresholdhennka}
 \end{figure}
+
+
+%\begin{figure}[tbp]
+%  \begin{minipage}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[keepaspectratio, scale=0.4]{tothennkarow.png}
+%  \end{minipage}
+%  \begin{minipage}[b]{0.5\linewidth}
+%    \centering
+%    \includegraphics[keepaspectratio, scale=0.2]{tothennka.png}
+%  \end{minipage}
+%  \caption[ルミノシティに対するToTの変化]{ルミノシティに対するToTの変化}
+%  \label{fig:calibhikaku}
+%\end{figure}
+
+%\begin{figure}[tbp]
+%  \centering
+%  \includegraphics[height=7.5cm,keepaspectratio]{totaldose.png}
+%  \caption[トータルドーズ効果と漏れ電流の関係]{トータルドーズ効果と漏れ電流の関係 \cite{totaldoze}。}
+%  \label{fig:totaldoze}
+%\end{figure}
+
 
 これまで、電荷較正後の補完作業は１人の担当者による手作業で行われていた。RUN3からは放射線損傷による影響がさらに大きくなることから、電荷較正の頻度が10日に1度程度になる予定であり、この作業を行うのは非常に労力が伴う。さらに、これまで行っていた補正では手作業による補正であることから、担当者によっては異なる値を補完してしまうことがある。本研究では適切な欠損の補完処理を行うよう、例外をアルゴリズムとして抽出・処理する自動解析ツールの開発を行った。次節からそれについて説明する。
 
@@ -92,12 +134,23 @@ ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュ
 \begin{itemize}
   \item[]\textbf{試験電荷とから得られる電荷の差が、試験電荷の5\%以上であれば問題のある試験電荷とする}
 \end{itemize}
-上記の基準を満たしていれば、B-LayerにおけるMIP粒子がシリコンセンサーに落とす電荷から得られるToTの測定精度が$18\ \si{ToT}\times 0.05 = 0.9\ \si{ToT}$となり、約1ToTの精度でMIP粒子の検出を行うことができる。また、この基準は各試験電荷について個別の評価を行っているため、試験電荷の数に依存せず電荷再較正の自動処理により適した評価方法である。\fref{fig:partialdistance}にB-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布を示す。この分布において、試験電荷とから得られる電荷の差と試験電荷の比が5\% よりが大きいFEチップについて電荷較正結果の補正を行う。次項において、電荷再較正の処理方法について説明する。
+上記の評価基準は、ピクセル検出器における主な測定対象であるMIP粒子の検出感度から決定した。MIP粒子がピクセル検出器に落とす電荷量の分布を\fref{fig:mipdist}に示す。
 
 \begin{figure}[tbp]
   \centering
-  \includegraphics[height=6cm,keepaspectratio]{partialdistance.png}
-  \caption[電荷較正結果の評価のための$\Delta d$の分布]{電荷較正結果の評価のための$\Delta d$の分布。}
+  \includegraphics[height=7cm,keepaspectratio]{mipdist.png}
+  \caption[MIP粒子がピクセル検出器に落とす電荷量]{MIP粒子がピクセル検出器に落とす電荷量。}
+  \label{fig:mipdist}
+\end{figure}
+
+上記の基準を満たしていれば、MIP粒子がシリコンセンサーに落とす電荷の測定精度$5\%$であり、電荷較正による分解能が\fref{fig:mipdist}におけるランダウ分布の揺らぎより十分小さくできる。
+
+また、この基準は各試験電荷について個別の評価を行っているため、試験電荷の数に依存せず電荷再較正の自動処理により適した評価方法である。\fref{fig:partialdistance}にB-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布を示す。この分布において、試験電荷とから得られる電荷の差と試験電荷の比が$5\% $より大きいFEチップについて電荷較正結果の補正を行う。次項において、電荷再較正の処理方法について説明する。
+
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[height=7cm,keepaspectratio]{partialdistance.png}
+  \caption[B-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布]{B-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布。}
   \label{fig:partialdistance}
 \end{figure}
 
@@ -111,7 +164,7 @@ ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュ
 \begin{figure}[tbp]
   \centering
   \includegraphics[height=10cm,keepaspectratio]{saikouseiflow.png}
-  \caption[電荷較正結果の評価のための$\Delta d$の分布]{電荷較正結果の評価のための$\Delta d$の分布。}
+  \caption[電荷較正結果を再較正するツールの処理の流れ]{電荷較正結果を再較正するツールの処理の流れ。}
   \label{fig:saikouseiflow}
 \end{figure}
 
@@ -144,15 +197,15 @@ ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュ
 各パラメータの補完のため、２つの補完方法の内、どちらがより実際の値を再現するかの評価を行った。
 
 \begin{figure}[tbp]
-  \begin{minipage}[b]{0.5\linewidth}
+  \begin{minipage}[b]{0.45\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.6]{houhousame.png}
   \end{minipage}
-  \begin{minipage}[b]{0.5\linewidth}
+  \begin{minipage}[b]{0.55\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.7]{houhoudiff.png}
   \end{minipage}
-  \caption[データ欠陥の補完方法]{データ欠陥の補完方法。左図はあるFEチップにおいて、normalピクセルの値が欠陥している場合に、longおよびgangedピクセルから補完することを示す。右図は欠陥の補完のために、異なるFEチップにある値を用いて補完することを示す。}
+  \caption[データ欠陥の補完方法]{データ欠陥の補完方法についての概念図。左図はあるFEチップにおいて、normalピクセルの値が欠陥している場合に、longおよびgangedピクセルから補完することを示す。右図は欠陥の補完のために、異なるFEチップにある値を用いて補完することを示す。}
   \label{fig:houhouhou}
 \end{figure}
 
@@ -166,9 +219,9 @@ ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュ
 \subsection{評価結果と考察}
 %------------------------------------------------------------------------------------------------------------------------
 
-前節において説明した方法を用いて、補完方法の評価を行った。\fref{fig:kekkanthreshold}はnormalピクセルにおけるThresholdについての評価結果を表す。この結果から、Threshold値は補完方法1の同一FEチップにおける別のピクセルタイプから得られる平均値を用いて補完した場合の方が、より精度良く補完を行うことがわかる。これはThresholdのチューニング方法によるものだと考えられる。チューニングではあるFEチップにおけるピクセル全体にglobalチューニングを行った後、各ピクセルごとにlocalチューニングを行う。初めにglobalチューニングを行うことから、別のFEチップの値を用いて補完するより、同一FEチップの値を用いて補完する方が実際の値に近い値を用いた補完を行うことができる。
+前節において説明した方法を用いて、補完方法の評価を行った。\fref{fig:kekkanthreshold}はNormalピクセルにおけるThresholdについての評価結果を表す。この結果から、Threshold値は補完方法1の同一FEチップにおける別のピクセルタイプから得られる平均値を用いて補完した場合の方が、より精度良く補完を行うことがわかる。これはThresholdのチューニング方法によるものだと考えられる。チューニングではあるFEチップにおけるピクセル全体にglobalチューニングを行った後、各ピクセルごとにlocalチューニングを行う。初めにglobalチューニングを行うことから、別のFEチップの値を用いて補完するより、同一FEチップの値を用いて補完する方が実際の値に近い値を用いた補完を行うことができる。
 
-\fref{fig:kekkannoise}はnormalピクセルにおけるThresholdのノイズについての評価結果を表す。この結果から、ノイズは補完方法2の別のFEチップにおける同一ピクセルタイプから得られる平均値を用いて補完した場合の方が、より精度良く補完を行うことができるとわかる。gangedピクセルはnormalピクセル２つをワイヤーで接続しているため、normalピクセルに比べてノイズが大きくなる。さらに、longピクセルは長方形の一片の長さがnormalピクセルの1.5倍あるため、normalピクセルと比べてピクセル間に生じるキャパシタンスが大きくなる。これによりFEチップ内の回路にノイズが加わり、longピクセルのノイズはnormalピクセルよりもノイズが大きくなる。
+\fref{fig:kekkannoise}はNormalピクセルにおけるThresholdのノイズについての評価結果を表す。この結果から、ノイズは補完方法2の別のFEチップにおける同一ピクセルタイプから得られる平均値を用いて補完した場合の方が、より精度良く補完を行うことができるとわかる。gangedピクセルはnormalピクセル２つをワイヤーで接続しているため、normalピクセルに比べてノイズが大きくなる。さらに、longピクセルは長方形の一片の長さがnormalピクセルの1.5倍あるため、normalピクセルと比べてピクセル間に生じるキャパシタンスが大きくなる。これによりFEチップ内の回路にノイズが加わり、longピクセルのノイズはnormalピクセルよりもノイズが大きくなる。
 
 
 \begin{figure}[tbp]
@@ -181,7 +234,7 @@ ATLASに搭載されたピクセル検出器およびIBLのピクセルモジュ
   \begin{minipage}[b]{0.5\linewidth}
     \centering
     \includegraphics[keepaspectratio, scale=0.6]{kekkannoise.png}
-    \caption[Thresholdのノイズの評価結果]{Thresholdのノイズの評価結果。同一FEチップの平均値の分布(青色)は、ピークの中心値がゼロからずれている。}
+    \caption[Thresholdのノイズの評価結果]{Thresholdのノイズの評価結果。同一FEチップの平均値の分布(青色)は、ピークの中心値がゼロからずれている。\\}
     \label{fig:kekkannoise}
   \end{minipage}
 \end{figure}
@@ -332,7 +385,7 @@ RUN3におけるATLAS実験のためのモンテカルロシミュレーショ�
 
 一方で、\fref{fig:blayernew}の右図は、Threshold値に近い小さい試験電荷量の点についてToTから電荷量の較正が正しくできないものである。ToTが5以上であれば、試験電荷から得られる点のフィット曲線上にあるため正しく較正できるが、$\mathrm{ToT}=4$の場合は、正しく較正できなくなってしまう。
 
-RUN2終了時までの電荷較正ではThresholdを超える試験電荷の最小値は$6000\ \si{e}$であり、電荷量を$2000\ \si{e}$ずつ変化させてデータの取得を行っていたため小さい試験電荷についての２つの構造が確認できていなかった。しかし、RUN3に向けた電荷較正では、Threshold値が放射線損傷により$3500\ \si{e}$まで引き下げられた。さらに、試験電荷の電荷量は$500\ \si{e}$ずつ変化させスキャンを行うため、このような違いが確認できるようになったと考えられる。そのため、小さい試験電荷を用いたToTスキャンについての理解を深め、\fref{fig:blayernew}の右図のような電荷較正結果が得られた際の電荷較正手法について再検討する必要があると考える。
+RUN2終了時までの電荷較正では電荷較正に用いられる試験電荷の最小値は$6000\ \si{e}$であり、電荷量を$2000\ \si{e}$ずつ変化させてデータの取得を行っていたため小さい試験電荷についての２つの構造が確認できていなかった。しかし、RUN3に向けた電荷較正では、放射線損傷による電荷収集の低下を保障するようThresholdを$3500\ \si{e}$まで引き下げられた。さらに、試験電荷の電荷量は$500\ \si{e}$ずつ変化させスキャンを行うため、このような違いが確認できるようになったと考えられる。そのため、小さい試験電荷を用いたToTスキャンについての理解を深め、\fref{fig:blayernew}の右図のような電荷較正結果が得られた際の電荷較正手法について再検討する必要があると考える。
 
 
 \newpage

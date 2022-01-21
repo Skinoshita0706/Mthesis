@@ -1,84 +1,34 @@
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ヒッグス場との結合定数と素粒子の質量}}{3}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces LHCの全体図}}{5}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces ATLAS検出器の全体図}}{6}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces ATLAS検出器}}{7}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces 内部飛跡検出器の全体像}}{8}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces 内部飛跡検出器の断面図}}{8}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces 内部飛跡検出器の配置}}{8}{figure.1.7}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces ATLASカロリメータ}}{10}{figure.1.8}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces LHCの運転計画}}{11}{figure.1.9}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ITkの全体図}}{13}{figure.1.10}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces ITkのピクセル検出器およびストリップ検出器の配置}}{14}{figure.1.11}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces $\mathaccentV {tilde}07E{\chi }_1^{\pm },\ \mathaccentV {tilde}07E{\chi }_1^0$生成ダイアグラムと崩壊の模式図}}{15}{figure.1.12}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces ITkおよび現行の内部飛跡検出器における、Disappearing trackの測定感度の予測値}}{16}{figure.1.13}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces HL-LHC ATLAS実験で期待される電弱ゲージーノ探索感度}}{16}{figure.1.14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces n型半導体の結晶構造とバンド構造}}{2}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces p型半導体の結晶構造とバンド構造}}{3}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces pn接合の様子}}{3}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces エネルギー損失と$\beta $の関係。}}{5}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ピクセルモジュールの模式図}}{5}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces プラナーセンサーと3Dセンサーの構造}}{6}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces アナログ信号をToTに変換する概念図}}{7}{figure.1.7}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces 電荷量とタイムウォークの関係}}{7}{figure.1.8}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces RD53Aのピクセルとアナログ回路}}{8}{figure.1.9}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces フレンケル欠陥とショットキー欠陥}}{9}{figure.1.10}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces 放射線損傷による型変換および全空乏化電圧の測定結果}}{10}{figure.1.11}
+\contentsline {figure}{\numberline {1.12}{\ignorespaces MOSトランジスタの模式図}}{10}{figure.1.12}
+\contentsline {figure}{\numberline {1.13}{\ignorespaces トータルドーズ効果とFEチップ電流の関係}}{11}{figure.1.13}
+\contentsline {figure}{\numberline {1.14}{\ignorespaces トータルドーズ効果とThresholdおよびToTの関係}}{11}{figure.1.14}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces n型半導体の結晶構造とバンド構造}}{18}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces p型半導体の結晶構造とバンド構造}}{19}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces pn接合の様子}}{19}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces エネルギー損失と$\beta $の関係。}}{21}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ピクセルモジュールの模式図}}{21}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces プラナーセンサーと3Dセンサーの構造}}{22}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces アナログ信号をToTに変換する概念図}}{23}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces 電荷量とタイムウォークの関係}}{23}{figure.2.8}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces RD53Aのピクセルとアナログ回路}}{24}{figure.2.9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces フレンケル欠陥とショットキー欠陥}}{25}{figure.2.10}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces 放射線損傷による型変換および全空乏化電圧の測定結果}}{25}{figure.2.11}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces MOSトランジスタの模式図}}{26}{figure.2.12}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces トータルドーズ効果とFEチップ電流の関係}}{27}{figure.2.13}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces トータルドーズ効果とThresholdおよびToTの関係}}{27}{figure.2.14}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces FEI3アナログ回路の概略図}}{13}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ToTと荷電粒子がシリコンセンサーに落とす電荷量$Q$の概念図}}{13}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces 検出効率と試験電荷の関係}}{15}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 同じ電荷量のアナログ信号においてパルスの立ち上がり点をずらした際のToTの変化}}{16}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ピクセルモジュールのFEチップ境界付近のピクセルタイプ}}{17}{figure.2.5}
 \addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces FEI3アナログ回路の概略図}}{29}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 検出効率と試験電荷の関係}}{30}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ピクセルモジュールのFEチップ境界付近のピクセルタイプ}}{32}{figure.3.3}
-\addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 電荷較正式\nobreakspace {}(\ref {eq:calibration})を用いてフィッティングした結果}}{34}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces $V_\mathrm {cal}$とPlsr DACの関係の測定結果}}{34}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 欠陥が含まれるピクセルモジュールについてのThreshold分布}}{35}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces ルミノシティに対するToTの変化}}{36}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces MIP粒子がピクセル検出器に落とす電荷量}}{37}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces B-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布}}{38}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 電荷較正結果を再較正するツールの処理の流れ}}{39}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 電荷再較正前後のフィッティング結果}}{39}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces データ欠陥の補完方法}}{40}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Thresholdの評価結果}}{41}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Thresholdのノイズの評価結果}}{41}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces 2021年9月に行われたB-Layerについての電荷較正結果}}{43}{figure.4.12}
-\addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces フレキシブル基板}}{46}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces ピクセルモジュールの組み立て工程}}{46}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces ワイヤー保護用の構造体}}{48}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 読み出し試験のセットアップ}}{48}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces FEチップへの電流と、入力電圧$V_\mathrm {in}$、アナログ回路の出力電圧$V_\mathrm {analog}$およびデジタル回路の出力電圧$V_\mathrm {digital}$の関係}}{50}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces クアッドモジュールのIref Irim部分を表す部分(左図)とワイヤーの配線とIref値の関係(右図)\cite {lingxin}。ピンク色のワイヤーの配置により4bitのIref値を表すことができる。}}{53}{figure.5.6}
-\addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces 中央データベースとローカルデータベースの設置位置}}{55}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces ローカルデータベースの全体像}}{57}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces ローカルデータベースの構造}}{60}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces ウェブアプリケーションの処理の概念図}}{60}{figure.6.4}
-\addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 非読み出し試験結果のブラウザ出力}}{64}{figure.7.1}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces ピクセル応答評価機能を用いて作成したピクセル解析結果(左・中央)と２つの差分を用いた比較結果(右図)。横軸は評価基準、縦軸は該当する不良ピクセル数を表す。}}{66}{figure.7.2}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces ピクセル解析結果における不良ピクセルの分布(左・中央)と２つの差分を用いた比較結果(右図)。各図は二次元ヒストグラムであり、横軸はASICにおける各ピクセルの列番号、縦軸は行番号を示している。}}{66}{figure.7.3}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces バンプ剥がれが発生したピクセルモジュールについての読み出し試験結果}}{67}{figure.7.4}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces 結果選択画面及び組み立て工程表示の例}}{68}{figure.7.5}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces ピクセルモジュールの基本特性選択画面}}{70}{figure.7.6}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces ピクセルモジュールの親子関係}}{71}{figure.7.7}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces ローカルデータベースを用いたピクセルモジュール登録画面}}{75}{figure.7.8}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces ピクセルモジュール登録機能による処理の流れ}}{76}{figure.7.9}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces 品質試験結果アップロード処理の流れ}}{79}{figure.7.10}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces 品質試験結果ダウンロード処理の流れ}}{83}{figure.7.11}
-\addvspace {10\jsc@mpt }
-\addvspace {10\jsc@mpt }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces 外観検査結果のブラウザ表示}}{87}{figure.A.1}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces 平坦性測定結果のブラウザ表示}}{88}{figure.A.2}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces 質量測定結果のブラウザ表示}}{89}{figure.A.3}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces 接着剤情報についてのブラウザ表示}}{89}{figure.A.4}
-\contentsline {figure}{\numberline {A.5}{\ignorespaces センサー特性測定結果のブラウザ表示}}{90}{figure.A.5}
-\contentsline {figure}{\numberline {A.6}{\ignorespaces SLDO特性結果のブラウザ表示}}{90}{figure.A.6}
-\contentsline {figure}{\numberline {A.7}{\ignorespaces ワイヤー強度測定結果のブラウザ表示}}{91}{figure.A.7}
-\contentsline {figure}{\numberline {A.8}{\ignorespaces ワイヤー配線情報のブラウザ表示}}{91}{figure.A.8}
-\contentsline {figure}{\numberline {A.9}{\ignorespaces プルアップ抵抗値のブラウザ表示}}{92}{figure.A.9}
-\contentsline {figure}{\numberline {A.10}{\ignorespaces IrefTrim値のブラウザ表示}}{92}{figure.A.10}
-\contentsline {figure}{\numberline {A.11}{\ignorespaces ベアモジュールとフレキシブル基板の向きについてのブラウザ表示}}{93}{figure.A.11}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 電荷較正式\nobreakspace {}(\ref {eq:calibration})を用いてフィッティングした結果}}{19}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces $V_\mathrm {cal}$とPlsr DACの関係の測定結果}}{19}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 欠陥が含まれるピクセルモジュールについてのThreshold分布}}{20}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ルミノシティに対するToTの変化}}{21}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces MIP粒子がピクセル検出器に落とす電荷量}}{23}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces B-Layerの全FEチップについて計算した試験電荷と電荷較正結果から得られる電荷の差の分布}}{23}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 電荷較正結果を再較正するツールの処理の流れ}}{24}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 電荷再較正前後のフィッティング結果}}{24}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces データ欠陥の補完方法}}{25}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Thresholdの評価結果}}{26}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Thresholdのノイズの評価結果}}{26}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 2021年9月に行われたB-Layerについての電荷較正結果}}{29}{figure.3.12}

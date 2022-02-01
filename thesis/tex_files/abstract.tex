@@ -1,8 +1,34 @@
 \chapter*{Abstract}
 
+The Large Hadron Collider (LHC) is the world's highest energy particle collider, which designed to provide proton-proton collisions with center of mass energy of $14\ \si{TeV}$. The ATLAS is a general purpose detecctor at the LHC. The purposes of the ATLAS are to investigate precise measurements of the Standard Model and searches for the physics beyond the Standard Model.
 
+The pixel detector is installed in the innermost layer of ATLAS.
+%The calibration of the pixel detector fulfills tuning the ASIC configuration parameters for establishing the best operational settings.
+The calibration of the pixel detector fulfills tuning ASIC configuration parameters.
+Parameters can be changed because of the radiation damege so the calibration need to be done frequently.
+The calibration results can contain two main problems: ASIC injects incorrect charges and data is lost.
+%We need to correct these probrems before storing results to database.
+This thesis reports the development of an analysis tool that automatically removes the problems by using appropriate exception handling.
+The tool is used for the latest calibration data obrained in September 2021. It found that the calibration results can not predict correct small charges.
+Evaluating the effect on the measurement data including small charges, and it is expected to be small for MIP measurement, which is the main target of the pixel detector.
+%As a result, it was decided not to correct the charge amount obtained from the charge calibration equation because the effect on clusters containing small charge amounts was expected to be small for MIP, which are the main measurement target of the pixel detector.
 
+The LHC plans to be upgraded so that it will increase the instantaneous luminosity. The upgrade is called HL-LHC(High-Luminosity LHC).
+The HL-LHC will have an instantaneous luminosity 5-7 times larger than the current LHC.
+This is expected to improve the measurement accuracy of the Standard Model and the sensitivity of the search for new physics.
+With the increase of instantaneous luminosity, higher performance of the detector is required due to the increase of data rate and hit occupancy.
+In addition, the current ATLAS pixel detectors are expected to reach their design radiation tolerance.
+So the inner detectors will be replaced to new detector called ITk(Inner Tracker).
 
+For the production of ITk, about 10,000 pixel modules will be mass-produced, and quality tests will be conducted for all modules.
+In order to ensure efficient mass production and integrated pixel module selection, a system for integrated management of quality control tests' results is required.
+For this purpose, an integrated management system called \textit{local database} is being developed mainly by Tokyo Institute of Technology.
+This thesis also reports a management features such as displaying test results, registering a new module, and synchronizing data with central database.
+
+Integrating these features with those of the previous study, all the basic features required for the mass production are now in place.
+However, it was confirmed that some of the functions require very long processing times.
+Such a long processing time is very detrimental to the user's satisfaction and needs to be improved.
+%Therefore, we pointed out ways to improve the process by subdividing the process content, which is an issue for the future.
 
 \newpage
 
@@ -10,15 +36,16 @@
 
 フランスとスイスの国境にある欧州原子力研究機構(CERN)に建設された陽子衝突加速器LHCでは、世界最高エネルギーである重心系エネルギー$14\ \si{TeV}$で陽子同士を衝突させることができる。LHCの衝突点の１つに設置されているATLASでは、陽子衝突からの崩壊生成粒子を測定し、標準模型の精密測定やそれを超える新物理の探索を行っている。
 
-ATLASの最内層に設置されているシリコンピクセル検出器は、放射線損傷による影響を補正するために頻繁に電荷較正を行う必要がある。電荷較正結果には、ASICが正しい電荷を生成できないことや、データの欠陥等の問題が含まれることがあるため、これら値を適切な値に補完する必要がある。本研究では、電荷較正結果により適切な例外処理を行うよう、例外をアルゴリズムとして抽出・処理する解析ツールを開発した。
-開発した解析ツール用いて、2021年9月に取得した最新の電荷較正データに対して電荷較正およびその補正を行った。最新の電荷較正データを用いて作成した結果から、小さい電荷量について電荷較正が理想的に行えていないことがわかった。この電荷較正結果が小さい電荷量を含む測定データに与える影響を評価を行った。その結果、ATLASピクセル検出器における主な測定対象であるMIP粒子に対して、小さい電荷量を含むクラスターへの影響は小さいと予想され、電荷較正式から得られる電荷量の補正を行わないことに決定した。
+ATLASの最内層に設置されているシリコンピクセル検出器は、放射線損傷による影響を補正するために頻繁に電荷較正を行う必要がある。電荷較正結果には、ASICが正しい電荷を生成できないことや、データの欠損等の問題が含まれることがあるため、これら値を適切な値に補完する必要がある。本研究では、電荷較正結果により適切な例外処理を行うよう、例外をアルゴリズムとして抽出・処理する解析ツールを開発した。
+開発した解析ツール用いて、2021年9月に取得した最新の電荷較正データに対して電荷較正およびその補正を行った。最新の電荷較正データを用いて作成した結果から、小さい電荷量について電荷較正が理想的に行えていないことがわかった。最新の電荷較正データを用いて、小さい電荷量が測定データに与える影響の評価を行った。その結果、ATLASピクセル検出器における主な測定対象であるMIP粒子に対して、小さい電荷量を含むクラスターへの影響は小さいと予想され、電荷較正式から得られる電荷量の補正は行わないことに決定した。
 
-また、LHC高輝度化(HL-LHC)に向けたATLAS検出器アップグレードのため、次世代ピクセル検出器の開発および量産の準備を進めている。HL-LHCでは、瞬間ルミノシティが現在のLHCの$5$-$7$倍、積分ルミノシティが$2025$年までの約$10$倍になり、標準模型の測定精度の向上や新物理の探索感度の向上が期待される。瞬間ルミノシティの増加に伴い、データレートの増加やヒット占有率の増加することにより、検出器に対してより高い性能が要求される。さらに、現行ATLASピクセル検出器は2025年における稼動後、設計放射線耐性に到達するため、再内層に設置されている内部飛跡検出器の総入れ替えを予定しており、新しく設置する検出器をITk (Inner Tracker)と呼ぶ。
+また、LHC高輝度化(HL-LHC)に向けたATLAS検出器アップグレードのため、次世代ピクセル検出器の開発および量産の準備を進めている。HL-LHCでは、瞬間ルミノシティが現在のLHCの$5$-$7$倍、積分ルミノシティが$2025$年までの約$10$倍になり、標準模型の測定精度の向上や新物理の探索感度の向上が期待される。瞬間ルミノシティの増加に伴うデータレートの増加やヒット占有率の増加により、検出器に対してより高い性能が要求される。さらに、現行ATLASピクセル検出器は2025年における稼動後、設計放射線耐性に到達するため、再内層に設置されている内部飛跡検出器の総入れ替えを予定している。HL-LHCのために新しく設置する内部飛跡検出器をITk (Inner Tracker)と呼ぶ。
 
 ITkの製造のために、次世代ピクセルモジュール約10000台を量産し、全てのモジュールに対して品質試験を行う予定となっている。効率の良い量産と統合されたピクセルモジュール選定を行うために、品質試験結果を統合管理するシステムが必要となる。そのために、東工大を中心としてローカルデータベースという統合管理システムの開発が進められている。
 本研究では、先行研究において開発された読み出し試験についての管理機能に加え、外観鑑別や形状測定などの試験項目についての管理機能、モジュール登録機能、試験結果の共有機能の開発を行った。
 
 以上の機能を新たに実装することにより、ピクセルモジュールの次世代器量産における品質試験結果管理に必要な機能の基本的な部分が全て揃った。しかし、一部の機能において非常に長い処理時間を必要とすることが確認された。このような長い処理時間は使用者の満足度が非常に悪くなるため、改善が必要である。そのため、処理内容を細分化することにより改善方法を指摘し、今後の課題とした。
+
 
 
 %世界最高エネルギーでの陽子衝突加速器LHCで新物理の発見を目指すATLAS実験のピクセル検出器においては、電荷較正の結果にデータの欠損や較正の失敗が含まれると、実測およびシミュレーションに影響を及ぼすため、較正結果を評価し再較正を行う必要がある。本研究では、再較正の際により適切な欠損の補完処理を行うよう、例外をアルゴリズムとして抽出・処理する自動解析ツールを開発した。
